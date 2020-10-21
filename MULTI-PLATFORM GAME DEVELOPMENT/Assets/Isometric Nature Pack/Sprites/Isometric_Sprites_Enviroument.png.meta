@@ -1,0 +1,715 @@
+fileFormatVersion: 2
+guid: bb79f008e4c3e95429aedd297ecb652b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2975806555431377895
+    second: Isometric_Sprites_Enviroument_0
+  - first:
+      213: -8870098763170191674
+    second: Isometric_Sprites_Enviroument_1
+  - first:
+      213: -8413629954329947105
+    second: Isometric_Sprites_Enviroument_2
+  - first:
+      213: -8132705027805242107
+    second: Isometric_Sprites_Enviroument_3
+  - first:
+      213: 5149331221924192510
+    second: Isometric_Sprites_Enviroument_4
+  - first:
+      213: -1821067137953781789
+    second: Isometric_Sprites_Enviroument_5
+  - first:
+      213: -7783923212331199331
+    second: Isometric_Sprites_Enviroument_6
+  - first:
+      213: -3997386755449459970
+    second: Isometric_Sprites_Enviroument_7
+  - first:
+      213: -5427102764846008939
+    second: Isometric_Sprites_Enviroument_8
+  - first:
+      213: -2394747966315320643
+    second: Isometric_Sprites_Enviroument_9
+  - first:
+      213: 7660038645384719361
+    second: Isometric_Sprites_Enviroument_10
+  - first:
+      213: -3214622128244047997
+    second: Isometric_Sprites_Enviroument_11
+  - first:
+      213: -1116040924705003754
+    second: Isometric_Sprites_Enviroument_12
+  - first:
+      213: 4063364257408267902
+    second: Isometric_Sprites_Enviroument_13
+  - first:
+      213: 2535651105570622720
+    second: Isometric_Sprites_Enviroument_14
+  - first:
+      213: -1431891546530971329
+    second: Isometric_Sprites_Enviroument_15
+  - first:
+      213: 8311840010951604918
+    second: Isometric_Sprites_Enviroument_16
+  - first:
+      213: 1633968071132678058
+    second: Isometric_Sprites_Enviroument_17
+  - first:
+      213: -1059228704904668925
+    second: Isometric_Sprites_Enviroument_18
+  - first:
+      213: -8132710818337808389
+    second: Isometric_Sprites_Enviroument_19
+  - first:
+      213: 8334870074783661570
+    second: Isometric_Sprites_Enviroument_20
+  - first:
+      213: 7729669170858497568
+    second: Isometric_Sprites_Enviroument_21
+  - first:
+      213: 6961845470339811174
+    second: Isometric_Sprites_Enviroument_22
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Isometric_Sprites_Enviroument_0
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 111
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 914eb3f44bfc3b6d0800000000000000
+      internalID: -2975806555431377895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isometric_Sprites_Enviroument_1
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 111
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c6eb92bb2417e480800000000000000
+      internalID: -8870098763170191674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isometric_Sprites_Enviroument_2
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 111
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f14d3944228cc3b80800000000000000
+      internalID: -8413629954329947105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isometric_Sprites_Enviroument_3
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 111
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50d92aabdd3d22f80800000000000000
+      internalID: -8132705027805242107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isometric_Sprites_Enviroument_4
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 94
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef0ae99c679167740800000000000000
+      internalID: 5149331221924192510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isometric_Sprites_Enviroument_5
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 94
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e7a02226154ab6e0800000000000000
+      internalID: -1821067137953781789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isometric_Sprites_Enviroument_6
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 94
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d94d4125413f9f390800000000000000
+      internalID: -7783923212331199331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isometric_Sprites_Enviroument_7
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 94
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efa659bcced6688c0800000000000000
+      internalID: -3997386755449459970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isometric_Sprites_Enviroument_8
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 70
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59530d51ace0fa4b0800000000000000
+      internalID: -5427102764846008939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isometric_Sprites_Enviroument_9
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 70
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbaaf2d996524ced0800000000000000
+      internalID: -2394747966315320643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isometric_Sprites_Enviroument_10
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 70
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10cabe7309ced4a60800000000000000
+      internalID: 7660038645384719361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isometric_Sprites_Enviroument_11
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 71
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38f37e6c43e5363d0800000000000000
+      internalID: -3214622128244047997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isometric_Sprites_Enviroument_12
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 72
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 617e82821b60380f0800000000000000
+      internalID: -1116040924705003754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isometric_Sprites_Enviroument_13
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 50
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e76b6d37348f36830800000000000000
+      internalID: 4063364257408267902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isometric_Sprites_Enviroument_14
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 50
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00d0dddfe31703320800000000000000
+      internalID: 2535651105570622720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isometric_Sprites_Enviroument_15
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 50
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3103249936e02ce0800000000000000
+      internalID: -1431891546530971329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isometric_Sprites_Enviroument_16
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 51
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ba36a2b376995370800000000000000
+      internalID: 8311840010951604918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isometric_Sprites_Enviroument_17
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 52
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa78136bd450da610800000000000000
+      internalID: 1633968071132678058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isometric_Sprites_Enviroument_18
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 30
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 309924cda1ddc41f0800000000000000
+      internalID: -1059228704904668925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isometric_Sprites_Enviroument_19
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 30
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bff9ff3899ec22f80800000000000000
+      internalID: -8132710818337808389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isometric_Sprites_Enviroument_20
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 30
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20e73884c286ba370800000000000000
+      internalID: 8334870074783661570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isometric_Sprites_Enviroument_21
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 31
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0261f48482d454b60800000000000000
+      internalID: 7729669170858497568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isometric_Sprites_Enviroument_22
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 32
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66744c0e1917d9060800000000000000
+      internalID: 6961845470339811174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
