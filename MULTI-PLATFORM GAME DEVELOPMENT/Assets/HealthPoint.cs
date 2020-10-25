@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class HealthPoint : MonoBehaviour
 {
@@ -12,7 +13,7 @@ public class HealthPoint : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        player = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerControl>;
+        player = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerControl>();
 
     }
 
@@ -21,7 +22,7 @@ public class HealthPoint : MonoBehaviour
         healthPointImage.fillAmount = player.currentHp / player.maxHp;
         if (healthPointEffect.fillAmount > healthPointImage.fillAmount)
         {
-            healthPointEffecct.fillAmount -= hurtSpeed;
+            healthPointEffect.fillAmount -= hurtSpeed;
 
         }
         else {
