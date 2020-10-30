@@ -13,5 +13,6 @@ public class PlayerControl : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D collision) {
         currentHp -= 15.0f;
+
     }
 }
