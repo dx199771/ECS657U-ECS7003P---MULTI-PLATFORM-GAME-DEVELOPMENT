@@ -12,7 +12,11 @@ public class PlayerControl : MonoBehaviour
         currentHp = maxHp;
     }
     private void OnTriggerEnter2D(Collider2D collision) {
-        currentHp -= 15.0f;
+        if (collision.CompareTag("Pedestrain"))
+            currentHp -= 15.0f;
+        if(currentHp <= 0)
+            FindObjectOfType<GameManager>().EndGame();
 
     }
+
 }
