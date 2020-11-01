@@ -2,13 +2,19 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
-    public void EndGame()
+    public float finalScore;
+    public GameObject gameScreen;
+    public Text scoreDisplay;
+
+    public void EndGame(float score)
     {
         Debug.Log("Game Over");
-        SceneManager.LoadScene("GameOver");
+        gameScreen.SetActive(true);
+        scoreDisplay.text = ("Game End, Your Score is: "+(int)score).ToString();
 
     }
 

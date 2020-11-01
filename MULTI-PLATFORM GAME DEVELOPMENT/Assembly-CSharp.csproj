@@ -66,9 +66,9 @@
      <Compile Include="Assets\PlayerAnimation.cs" />
      <Compile Include="Assets\HealthPointText.cs" />
      <Compile Include="Assets\GameManager.cs" />
-     <Compile Include="Assets\HUD.cs" />
      <Compile Include="Assets\MainMenu.cs" />
      <Compile Include="Assets\HealthPoint.cs" />
+     <Compile Include="Assets\FinalScore.cs" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>I:/Game Design/ECS657U-ECS7003P---MULTI-PLATFORM-GAME-DEVELOPMENT/MULTI-PLATFORM GAME DEVELOPMENT/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
