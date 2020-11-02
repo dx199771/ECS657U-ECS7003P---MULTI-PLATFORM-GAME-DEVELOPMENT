@@ -1,9 +1,9 @@
 ﻿<Properties StartupConfiguration="{AEC1143B-0521-5A13-76DD-8223EAE531B4}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Pickup.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/PlayerMovement.cs">
     <Files>
       <File FileName="Assets/HealthPoint.cs" Line="1" Column="1" />
       <File FileName="Assets/PlayerMovement.cs" Line="8" Column="30" />
-      <File FileName="Assets/CameraController.cs" Line="1" Column="1" />
+      <File FileName="Assets/CameraController.cs" />
       <File FileName="Assets/Pickup.cs" Line="1" Column="1" />
     </Files>
     <Pads>
@@ -11,7 +11,7 @@
         <State name="__root__">
           <Node name="MULTI-PLATFORM GAME DEVELOPMENT" expanded="True">
             <Node name="Assets" expanded="True">
-              <Node name="Pickup.cs" selected="True" />
+              <Node name="PlayerMovement.cs" selected="True" />
             </Node>
           </Node>
         </State>

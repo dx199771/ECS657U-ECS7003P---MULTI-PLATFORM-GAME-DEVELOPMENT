@@ -5,7 +5,7 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
 
-    public float speed = 500;
+    public float speed = 5;
      
 
     // Update is called once per frame
@@ -15,7 +15,7 @@ public class PlayerMovement : MonoBehaviour
         float verAxis = Input.GetAxis("Vertical");
         Vector2 movement = new Vector2(horAxis,verAxis);
 
-        GetComponent<Rigidbody2D>().velocity = new Vector2(horAxis,verAxis);
+        GetComponent<Rigidbody2D>().velocity = new Vector2(horAxis*speed,verAxis*speed);
         Vector2 direction = new Vector2(horAxis, verAxis);
         FindObjectOfType<PlayerAnimation>().SetDirection(direction);
     }

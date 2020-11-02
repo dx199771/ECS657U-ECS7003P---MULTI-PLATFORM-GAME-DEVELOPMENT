@@ -6397,16 +6397,6 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
-  - first: {x: 12, y: -30, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 3
-      m_TileSpriteIndex: 0
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
   - first: {x: 15, y: -30, z: 0}
     second:
       serializedVersion: 2
@@ -12655,17 +12645,17 @@ Tilemap:
     m_Data: {fileID: 11400000, guid: f798631e76a1b4864bfca2ee44d915eb, type: 2}
   - m_RefCount: 44
     m_Data: {fileID: 11400000, guid: c6834c723704449519aac86b8eb45afb, type: 2}
-  - m_RefCount: 328
+  - m_RefCount: 327
     m_Data: {fileID: 11400000, guid: bc7df520dc4414a039455462297b1ffb, type: 2}
   m_TileSpriteArray:
-  - m_RefCount: 670
+  - m_RefCount: 669
     m_Data: {fileID: 21300000, guid: 03bbed35d370c4f128945cef62884e32, type: 3}
   - m_RefCount: 37
     m_Data: {fileID: 21300000, guid: 11f3c99b3545f4c4cb89ffa249fef760, type: 3}
   - m_RefCount: 44
     m_Data: {fileID: 21300000, guid: be4785cb9d81f4684a1cf2679266393d, type: 3}
   m_TileMatrixArray:
-  - m_RefCount: 751
+  - m_RefCount: 750
     m_Data:
       e00: 1
       e01: 0
@@ -12684,7 +12674,7 @@ Tilemap:
       e32: 0
       e33: 1
   m_TileColorArray:
-  - m_RefCount: 751
+  - m_RefCount: 750
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
@@ -18902,7 +18892,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 8f92b2d912773479894490421de2bc04, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7fa740437db3d4e77a858598c2f2394b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -18921,8 +18911,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 258471144}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.38, y: 8.57, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -3.38, y: 7.89, z: 0}
+  m_LocalScale: {x: 0.8, y: 0.8, z: 0.8}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 9
@@ -85118,7 +85108,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c2a7d45d6f35e64eaf91b093252ee12, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 500
+  speed: 5
 --- !u!50 &2042510576
 Rigidbody2D:
   serializedVersion: 4
