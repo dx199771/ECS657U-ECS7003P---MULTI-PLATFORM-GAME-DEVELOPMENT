@@ -60,15 +60,16 @@
     <Compile Include="Assets/CameraController.cs" />
     <Compile Include="Assets/FinalScore.cs" />
     <Compile Include="Assets/Inventory.cs" />
+    <Compile Include="Assets/PlayerMovement.cs" />
     <Compile Include="Assets/Patrol.cs" />
     <Compile Include="Assets/Timer.cs" />
     <Compile Include="Assets/PlayerControl.cs" />
     <Compile Include="Assets/PlayerAnimation.cs" />
     <Compile Include="Assets/HealthPointText.cs" />
     <Compile Include="Assets/GameManager.cs" />
+    <Compile Include="Assets/BGM.cs" />
     <Compile Include="Assets/MainMenu.cs" />
     <Compile Include="Assets/HealthPoint.cs" />
-    <Compile Include="Assets/BGM.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
