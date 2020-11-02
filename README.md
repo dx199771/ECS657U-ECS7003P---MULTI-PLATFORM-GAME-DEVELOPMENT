@@ -16,3 +16,12 @@ Case Study: 10%
 Note on Third Party Code/Assets: Extensive use of third party libraries is not allowed and any code segments based on someone else's code (e.g., if your code has been inspired by some source found online) has to be properly acknowledged and referenced. You should do the same for any free assets used such as textures, 3D models, sprites, audio, etc. It is absolutely forbidden to use non-free resources from the Unity Asset Store or from other sites. It is also forbidden to submit one of the weekly lab assignments, or extensions of those. The game must be substantially different than the ones from the labs and lectures.
 
 Assignments are made in groups of 3 students. Please use the Group Selection tool to self-organize yourselves in groups. Students not in groups will be randomly assigned among themselves or to groups formed of less than 3 students.
+
+Assets Attribute:
+All audio clips used,
+hurt01-thm-adventure.mp3
+piano-background-4.wav
+
+are attributed to the user on freesound.org who contribute voluntarily
+
+script for implementing the background music are inspired by user11458208 on stackoverflow: https://stackoverflow.com/questions/59086739/unity-add-background-music-on-game
