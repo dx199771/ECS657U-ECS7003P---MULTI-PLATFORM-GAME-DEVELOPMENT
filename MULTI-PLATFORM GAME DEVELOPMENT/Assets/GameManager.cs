@@ -17,7 +17,10 @@ public class GameManager : MonoBehaviour
         scoreDisplay.text = ("Game End, Your Score is: "+(int)score).ToString();
 
     }
-
+    public void Exit()
+    {
+        Application.Quit();
+    }
     public void Restart()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
