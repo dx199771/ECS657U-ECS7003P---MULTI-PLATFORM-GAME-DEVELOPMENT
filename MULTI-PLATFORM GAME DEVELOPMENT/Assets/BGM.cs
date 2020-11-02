@@ -5,11 +5,11 @@ using UnityEngine;
 public class BGM : MonoBehaviour
 {
     private static BGM instance = null;
-    private AudioSource audio;
+    private AudioSource backgroundmusic;
 
     private void Awake()
     {
-        if (instance == null)
+        if (instance == null) //define the situation to activate BGM
         {
             instance = this;
             DontDestroyOnLoad(gameObject);
@@ -21,7 +21,7 @@ public class BGM : MonoBehaviour
 
     void Start()
     {
-        audio = GetComponent<AudioSource>();
-        audio.Play();
+        backgroundmusic = GetComponent<AudioSource>(); //show where to obtain the audio clip
+        backgroundmusic.Play();
     }
 }

@@ -10,17 +10,14 @@ public class GameManager : MonoBehaviour
     public GameObject gameScreen;
     public Text scoreDisplay;
 
-    public void EndGame(float score)
+    public void EndGame(float score) //determine the setting for game over
     {
-        Debug.Log("Game Over");
+        Debug.Log("Game Over"); 
         gameScreen.SetActive(true);
-        scoreDisplay.text = ("Game End, Your Score is: "+(int)score).ToString();
+        scoreDisplay.text = ("Game End, Your Score is: "+(int)score).ToString(); 
 
     }
-    public void Exit()
-    {
-        Application.Quit();
-    }
+
     public void Restart()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);

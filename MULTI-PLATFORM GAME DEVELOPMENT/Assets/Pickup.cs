@@ -20,7 +20,7 @@ public class Pickup : MonoBehaviour
                 if (inventory.isFull[i] == false)
                 {
                     inventory.isFull[i] = true;
-                    Instantiate(itemButton, inventory.slots[i].transform, false);
+                    Instantiate(itemButton, inventory.slots[i].transform, false); //define which cart slot the picked item goes to
                     Debug.Log("PickUp "+ itemButton);
                     //Destroy(gameObject);
                     break;

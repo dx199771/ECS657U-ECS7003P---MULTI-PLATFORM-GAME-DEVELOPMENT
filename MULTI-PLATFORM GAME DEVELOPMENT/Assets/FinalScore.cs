@@ -11,10 +11,10 @@ public class FinalScore : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        float finalScore = GameObject.FindWithTag("Player").GetComponent<PlayerControl>().score;
+        float finalScore = GameObject.FindWithTag("Player").GetComponent<PlayerControl>().score; 
 
 
-        scoreDisplay.text = ((int)finalScore).ToString();
+        scoreDisplay.text = ((int)finalScore).ToString(); //Display final score
     }
 
 
