@@ -10,6 +10,7 @@ public class DialogManager : MonoBehaviour
     [SerializeField] private DialogWriter dialogWriter;
     public GameObject scene1;
     private Text messageText;
+    private AudioSource dialogueAudioSource;
     private int index; //current playing dialog message
     //all the msg from supermarket scene
     private string[] msgList1 = new string[]
@@ -33,6 +34,7 @@ public class DialogManager : MonoBehaviour
         //get dialog text component
         messageText = transform.Find("message").Find("dialogText").GetComponent<Text>();
         index = 0;
+        dialogueAudioSource = transform.Find("DialogueSound").GetComponent<AudioSource>();
     }
 
     public void Msg1()
@@ -48,6 +50,7 @@ public class DialogManager : MonoBehaviour
         messageText = transform.Find("message").Find("dialogText").GetComponent<Text>();
         string msg = msgList1[index];
         dialogWriter.AddWriter(messageText, msg, 0.05f, true, true);
+        dialogueAudioSource.Play();
         index++;
 
 
