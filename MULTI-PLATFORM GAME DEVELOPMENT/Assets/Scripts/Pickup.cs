@@ -1,11 +1,14 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Pickup : MonoBehaviour
 {
     private Inventory inventory;
     public GameObject itemButton;
+    public Text pickupInfoText;
+    public GameObject pickupInfo;
     private bool collide;
     void Start()
     {
@@ -28,17 +31,21 @@ public class Pickup : MonoBehaviour
             }
         }
     }
-    void OnTriggerEnter2D(Collider2D other)
+    void OnTriggerStay2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
         {
             collide = true;
+            pickupInfo.SetActive(true);
+            pickupInfoText.text = "Press E to pick up "+ itemButton.name+ "!";
+
         }
     }
     void OnTriggerExit2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
         {
+            pickupInfo.SetActive(false);
             collide = false;      
         }
     }

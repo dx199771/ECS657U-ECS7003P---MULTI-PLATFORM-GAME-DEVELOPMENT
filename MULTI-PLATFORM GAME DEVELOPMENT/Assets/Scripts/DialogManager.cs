@@ -9,6 +9,7 @@ public class DialogManager : MonoBehaviour
 {
     [SerializeField] private DialogWriter dialogWriter;
     public GameObject scene1;
+    public GameObject timer; 
     private Text messageText;
     private AudioSource dialogueAudioSource;
     private int index; //current playing dialog message
@@ -44,6 +45,7 @@ public class DialogManager : MonoBehaviour
         if (index >= msgList1.Length-2)
         {
             scene1.SetActive(false);
+            timer.SetActive(true); //set timer on
 
         }
         //display message when button click

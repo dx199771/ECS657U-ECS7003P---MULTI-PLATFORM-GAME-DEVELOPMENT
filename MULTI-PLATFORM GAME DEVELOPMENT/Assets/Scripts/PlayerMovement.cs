@@ -4,8 +4,11 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-
+    public GameObject instructionPanel;
     public float speed = 1;
+    //movement direction
+    private float horAxis;
+    private float verAxis;
     void Start()
     {
         //initla position set up
@@ -17,13 +20,21 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        float horAxis = Input.GetAxis("Horizontal"); //take X-axis and Y-axis from input
-        float verAxis = Input.GetAxis("Vertical");
-        Vector2 movement = new Vector2(horAxis,verAxis);
+        if (instructionPanel.activeSelf) //cannot move when instruction panel open
+        {
+            horAxis = 0;
+            verAxis = 0;
+        }
+        else //if instruction panel close(game start)
+        {
+            horAxis = Input.GetAxis("Horizontal"); //take X-axis and Y-axis from input
+            verAxis = Input.GetAxis("Vertical");
+            Vector2 movement = new Vector2(horAxis, verAxis);
 
-        GetComponent<Rigidbody2D>().velocity = new Vector2(horAxis*speed,verAxis*speed); //player's velocity of moving
-        Vector2 direction = new Vector2(horAxis, verAxis);
-        FindObjectOfType<PlayerAnimation>().SetDirection(direction); //assign animation to the character according to the direction
+            GetComponent<Rigidbody2D>().velocity = new Vector2(horAxis * speed, verAxis * speed); //player's velocity of moving
+            Vector2 direction = new Vector2(horAxis, verAxis);
+            FindObjectOfType<PlayerAnimation>().SetDirection(direction); //assign animation to the character according to the direction
+
+        }
     }
-
 }
