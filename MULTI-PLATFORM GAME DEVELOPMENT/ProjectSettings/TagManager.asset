@@ -48,6 +48,6 @@ TagManager:
   - name: puppy
     uniqueID: 734613735
     locked: 0
-  - name: object
+  - name: player
     uniqueID: 1952986757
     locked: 0
