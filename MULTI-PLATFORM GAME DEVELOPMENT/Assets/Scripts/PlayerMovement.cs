@@ -6,6 +6,7 @@ public class PlayerMovement : MonoBehaviour
 {
     public GameObject instructionPanel;
     public float speed = 1;
+    private bool isMoving = false;
     //movement direction
     private float horAxis;
     private float verAxis;
@@ -38,6 +39,27 @@ public class PlayerMovement : MonoBehaviour
             GetComponent<Rigidbody2D>().velocity = new Vector2(horAxis * speed, verAxis * speed); //player's velocity of moving
             Vector2 direction = new Vector2(horAxis, verAxis);
             FindObjectOfType<PlayerAnimation>().SetDirection(direction); //assign animation to the character according to the direction
+
+            if (GetComponent<Rigidbody2D>().velocity.x != 0 && GetComponent<Rigidbody2D>().velocity.y != 0)
+            {
+                isMoving = true;
+            }
+            else
+            {
+                isMoving = false;
+            }
+
+            if (isMoving)
+            {
+                //if (!SoundManager.PlaySound(SoundManager.Sound.HeroMove))
+                //{
+                SoundManager.PlaySound(SoundManager.Sound.HeroMove);
+                //}
+                //else
+                //{
+                    //SoundManager.PlaySound(SoundManager.Sound.HeroMove).Stop();
+                //}
+            }
 
         }
     }

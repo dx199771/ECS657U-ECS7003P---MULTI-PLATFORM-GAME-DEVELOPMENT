@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class PlayerControl : MonoBehaviour
 {
-    public AudioSource tickSource;
+    //public AudioSource tickSource;
     public float maxHp = 100.0f;
     public float currentHp = 10.0f;
     public GameObject[] shoppingCart;
@@ -18,14 +18,15 @@ public class PlayerControl : MonoBehaviour
     void Start()
     {
         currentHp = maxHp;
-        tickSource = GetComponent<AudioSource>();
+        //tickSource = GetComponent<AudioSource>();
 
     }
     private void OnTriggerEnter2D(Collider2D collision) {
         if (collision.CompareTag("Pedestrain"))
         {
             currentHp -= 15.0f;
-            tickSource.Play();
+            //tickSource.Play();
+            SoundManager.PlaySound(SoundManager.Sound.HeroHurt);
         }
         if (currentHp <= 0)
         {
