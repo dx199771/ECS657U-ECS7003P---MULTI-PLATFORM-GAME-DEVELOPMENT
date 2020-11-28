@@ -9,11 +9,14 @@ public class PlayerMovement : MonoBehaviour
     //movement direction
     private float horAxis;
     private float verAxis;
+    public float initialXPos;
+    public float initialyPos;
     void Start()
     {
         //initla position set up
-        float xPos = -1.4f;
-        float yPos = 10.86f;
+        float xPos = initialXPos;
+        float yPos = initialyPos;
+
         GetComponent<Rigidbody2D>().transform.localPosition = new Vector2(xPos, yPos);
     }
 
@@ -24,6 +27,7 @@ public class PlayerMovement : MonoBehaviour
         {
             horAxis = 0;
             verAxis = 0;
+            
         }
         else //if instruction panel close(game start)
         {

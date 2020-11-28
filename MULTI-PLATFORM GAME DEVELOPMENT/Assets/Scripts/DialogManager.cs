@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 // This class is dialog manage for displaying, modifying the text of dialog.
 
@@ -45,14 +46,18 @@ public class DialogManager : MonoBehaviour
         if (index >= msgList1.Length-2)
         {
             scene1.SetActive(false);
-            timer.SetActive(true); //set timer on
+            if (SceneManager.GetActiveScene().name=="game")
+            {
+                timer.SetActive(true); //set timer on
+            }
+        
 
         }
         //display message when button click
         messageText = transform.Find("message").Find("dialogText").GetComponent<Text>();
         string msg = msgList1[index];
         dialogWriter.AddWriter(messageText, msg, 0.05f, true, true);
-        dialogueAudioSource.Play();
+        dialogueAudioSource.Play(); //play keyboard sound effect
         index++;
 
 

@@ -10,6 +10,7 @@ public class GameManager : MonoBehaviour
     public GameObject gameScreen;
     public Text scoreDisplay;
 
+
     public void EndGame(float score) //determine the setting for game over
     {
         Debug.Log("Game Over"); 
