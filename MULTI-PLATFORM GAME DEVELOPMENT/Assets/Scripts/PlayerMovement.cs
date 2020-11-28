@@ -12,6 +12,12 @@ public class PlayerMovement : MonoBehaviour
     private float verAxis;
     public float initialXPos;
     public float initialyPos;
+
+    void Awake()
+    {
+        SoundManager.Initialize();
+    }
+
     void Start()
     {
         //initla position set up
@@ -40,7 +46,7 @@ public class PlayerMovement : MonoBehaviour
             Vector2 direction = new Vector2(horAxis, verAxis);
             FindObjectOfType<PlayerAnimation>().SetDirection(direction); //assign animation to the character according to the direction
 
-            if (GetComponent<Rigidbody2D>().velocity.x != 0 && GetComponent<Rigidbody2D>().velocity.y != 0)
+            if (GetComponent<Rigidbody2D>().velocity.x != 0 || GetComponent<Rigidbody2D>().velocity.y != 0)
             {
                 isMoving = true;
             }
@@ -51,13 +57,13 @@ public class PlayerMovement : MonoBehaviour
 
             if (isMoving)
             {
-                //if (!SoundManager.PlaySound(SoundManager.Sound.HeroMove))
+                //if (!SoundManager.Sound.HeroMove.isPlaying())
                 //{
                 SoundManager.PlaySound(SoundManager.Sound.HeroMove);
                 //}
                 //else
                 //{
-                    //SoundManager.PlaySound(SoundManager.Sound.HeroMove).Stop();
+                    //SoundManager.Sound.HeroMove.Stop();
                 //}
             }
 

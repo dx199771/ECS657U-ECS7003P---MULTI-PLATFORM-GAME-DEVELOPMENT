@@ -8,13 +8,56 @@ public static class SoundManager
     {
         HeroHurt,
         HeroMove,
+        PickItem,
+        DropItem,
+    }
+
+    private static Dictionary<Sound, float> soundTimerDictionary;
+
+    public static void Initialize()
+    {
+        soundTimerDictionary = new Dictionary<Sound, float>();
+        soundTimerDictionary[Sound.HeroMove] = 0f;
     }
 
     public static void PlaySound(Sound sound)
     {
-        GameObject soundGameObject = new GameObject("Sound");
-        AudioSource audioSource = soundGameObject.AddComponent<AudioSource>();
-        audioSource.PlayOneShot(GetAudioClip(sound));
+        if (CanPlaySound(sound)) 
+        {
+            GameObject soundGameObject = new GameObject("Sound");
+            AudioSource audioSource = soundGameObject.AddComponent<AudioSource>();
+            audioSource.PlayOneShot(GetAudioClip(sound));
+        }
+        
+    }
+
+    private static bool CanPlaySound(Sound sound)
+    {
+        switch (sound)
+        {
+            default:
+                return true;
+            case Sound.HeroMove:
+                if (soundTimerDictionary.ContainsKey(sound))
+                {
+                    float lastTimePlayed = soundTimerDictionary[sound];
+                    float playerMoveTimerMax = .35f;
+                    if(lastTimePlayed + playerMoveTimerMax < Time.time)
+                    {
+                        soundTimerDictionary[sound] = Time.time;
+                        return true;
+                    }
+                    else
+                    {
+                        return false;
+                    }
+                }
+                else
+                {
+                    return true;
+                }
+                
+        }
     }
 
     private static AudioClip GetAudioClip(Sound sound)
