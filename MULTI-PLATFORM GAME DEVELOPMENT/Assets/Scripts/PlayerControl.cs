@@ -9,8 +9,8 @@ public class PlayerControl : MonoBehaviour
     public float maxHp = 100.0f;
     public float currentHp = 10.0f;
     public GameObject[] shoppingCart;
-    string[] existedItems = new string[4];
-    string[] targetItems = new string[4];
+    string[] existedItems = new string[6];
+    string[] targetItems = new string[6];
     public float score;
     public GameObject timer;
 

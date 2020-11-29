@@ -13,6 +13,7 @@ public class Pickup : MonoBehaviour
     void Start()
     {
         inventory = GameObject.FindGameObjectWithTag("Player").GetComponent<Inventory>();
+        
     }
     void Update()
     {
@@ -20,11 +21,12 @@ public class Pickup : MonoBehaviour
         {
             for (int i = 0; i < inventory.slots.Length; i++)
             {
+                Debug.Log(inventory.isFull[i]);
                 if (inventory.isFull[i] == false)
                 {
+                    //item can be added to inventory
                     inventory.isFull[i] = true;
                     Instantiate(itemButton, inventory.slots[i].transform, false); //define which cart slot the picked item goes to
-                    Debug.Log("PickUp "+ itemButton);
                     //Destroy(gameObject);
                     break;
                 }
