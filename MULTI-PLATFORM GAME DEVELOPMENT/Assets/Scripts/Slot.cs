@@ -25,6 +25,7 @@ public class Slot : MonoBehaviour
         foreach (Transform child in transform)
         {
             GameObject.Destroy(child.gameObject); //destroy each child of slot
+            SoundManager.PlaySound(SoundManager.Sound.DropItem);
         }
     }
 }

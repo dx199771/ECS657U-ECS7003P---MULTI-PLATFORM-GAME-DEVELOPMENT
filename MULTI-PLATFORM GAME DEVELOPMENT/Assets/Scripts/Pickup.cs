@@ -27,6 +27,7 @@ public class Pickup : MonoBehaviour
                     //item can be added to inventory
                     inventory.isFull[i] = true;
                     Instantiate(itemButton, inventory.slots[i].transform, false); //define which cart slot the picked item goes to
+                    SoundManager.PlaySound(SoundManager.Sound.PickItem);
                     //Destroy(gameObject);
                     break;
                 }
