@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Pedestrain
   - Door
+  - Bed
   layers:
   - Default
   - TransparentFX

@@ -9,6 +9,7 @@ public class HomeTrigger : MonoBehaviour
     public GameObject info;
     public Text infoText;
     private bool doorTrigger;
+    private bool bedTrigger;
     private Animator anim;
 
     void Start()
@@ -25,6 +26,13 @@ public class HomeTrigger : MonoBehaviour
             info.SetActive(true);
             infoText.text = "Press E to leave the room!";
             doorTrigger = true;
+        }
+        if (collision.CompareTag("Bed"))
+        {
+            //open door info appear
+            info.SetActive(true);
+            infoText.text = "Press E to sleep!";
+            bedTrigger = true;
         }
     }
     private void OnTriggerExit2D(Collider2D collision)
@@ -43,6 +51,10 @@ public class HomeTrigger : MonoBehaviour
             SceneManager.LoadScene("Game"); //load next scene
             //anim.Play("transition");
 
+        }
+        if (Input.GetKeyDown(KeyCode.E) && bedTrigger) //if E prssed and doorTrigger active
+        {
+            SceneManager.LoadScene("DateInfo"); //load home scene
         }
     }
 }

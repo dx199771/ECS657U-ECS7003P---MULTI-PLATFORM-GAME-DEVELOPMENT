@@ -21,6 +21,12 @@ public class Patrol : MonoBehaviour
     void Update()
     {
         transform.position = Vector2.MoveTowards(transform.position, moveSpots[randomSpot].position, speed * Time.deltaTime);
+        Vector2 direction = moveSpots[randomSpot].position - transform.position;
+        
+        FindObjectOfType<PlayerAnimation>().SetDirection(direction); //assign animation to the character according to the direction
+
+        //Vector2 direction = new Vector2(horAxis, verAxis);
+        //FindObjectOfType<PlayerAnimation>().SetDirection(direction);
 
         if (Vector2.Distance(transform.position, moveSpots[randomSpot].position) < 0.2f)
         {
