@@ -8,14 +8,12 @@ public class GameManager : MonoBehaviour
 {
     public float finalScore;
     public GameObject gameScreen;
-    public Text scoreDisplay;
 
 
     public void EndGame(float score) //determine the setting for game over
     {
         Debug.Log("Game Over"); 
         gameScreen.SetActive(true);
-        scoreDisplay.text = ("Game End, Your Score is: "+(int)score).ToString(); 
 
     }
 
@@ -23,4 +21,10 @@ public class GameManager : MonoBehaviour
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
+    //exit supermarket and return to home scene
+    public void ExitSupermarket()
+    {
+        SceneManager.LoadScene("DateInfo"); // load date info
+    }
+
 }
