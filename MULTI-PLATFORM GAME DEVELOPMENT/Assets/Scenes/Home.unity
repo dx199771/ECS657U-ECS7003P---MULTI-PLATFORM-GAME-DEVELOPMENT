@@ -2638,7 +2638,7 @@ GameObject:
   - component: {fileID: 1186810806}
   - component: {fileID: 1186810805}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: dialogCanvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3089,6 +3089,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   instructionPanel: {fileID: 1474001009}
+  resultPanel: {fileID: 1474001009}
   speed: 4
   initialXPos: 0
   initialyPos: 0

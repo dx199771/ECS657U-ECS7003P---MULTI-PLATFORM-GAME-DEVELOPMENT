@@ -46,12 +46,10 @@ public class DialogManager : MonoBehaviour
         if (index >= msgList1.Length-2)
         {
             scene1.SetActive(false);
-            if (SceneManager.GetActiveScene().name=="game")
+            if (SceneManager.GetActiveScene().name=="Game")
             {
                 timer.SetActive(true); //set timer on
             }
-        
-
         }
         //display message when button click
         messageText = transform.Find("message").Find("dialogText").GetComponent<Text>();

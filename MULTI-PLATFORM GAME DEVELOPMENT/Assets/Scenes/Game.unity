@@ -38203,7 +38203,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 0:00
+  m_Text: 45s
 --- !u!222 &900846067
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -54145,9 +54145,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d39221c99ff1314d90ee85886adfdce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  intialTime: 0
+  intialTime: 45
   currentTime: 0
   timeDisplay: {fileID: 900846066}
+  resultsCanvas: {fileID: 1989358040}
 --- !u!4 &1434214344
 Transform:
   m_ObjectHideFlags: 0
@@ -75863,6 +75864,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   instructionPanel: {fileID: 1389158813}
+  resultPanel: {fileID: 1989358040}
   speed: 4
   initialXPos: -1.4
   initialyPos: 10.86
