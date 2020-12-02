@@ -1172,7 +1172,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 569249318}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.45, y: 1.5, z: -24.715115}
+  m_LocalPosition: {x: -0.52, y: 0.23, z: -24.715115}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 633712167}
@@ -1218,19 +1218,19 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 9287d512f19851248a4a81f1d9952b0c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4ad1908a73c8f4fd98a2ff7b67998059, type: 3}
   m_Color: {r: 0.015686275, g: 0.015686275, b: 0.015686275, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 30.77, y: 7.932891}
+  m_Size: {x: 30.897388, y: 19.160002}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!60 &569249321
-PolygonCollider2D:
+--- !u!68 &569249321
+EdgeCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -1243,24 +1243,19 @@ PolygonCollider2D:
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
+  m_EdgeRadius: 0
   m_Points:
-    m_Paths:
-    - - {x: -5.1894884, y: 1.2248778}
-      - {x: -8.545009, y: -0.33102033}
-      - {x: -9.7462845, y: -0.8794255}
-      - {x: -9.602018, y: 5.816156}
-      - {x: -0.81266296, y: 2.650642}
-      - {x: -4.0481586, y: 0.9900055}
-      - {x: -4.826574, y: 1.4161079}
+  - {x: 0.7039757, y: -9.851355}
+  - {x: -15.41239, y: -9.848221}
+  - {x: -15.388496, y: -2.6657383}
+  - {x: 0.4874667, y: 5.306011}
+  - {x: 15.533417, y: -2.1817005}
+  - {x: 15.546337, y: -9.806404}
+  - {x: 0.7456198, y: -9.851354}
+  m_AdjacentStartPoint: {x: 0, y: 0}
+  m_AdjacentEndPoint: {x: 0, y: 0}
+  m_UseAdjacentStartPoint: 0
+  m_UseAdjacentEndPoint: 0
 --- !u!1 &606967019
 GameObject:
   m_ObjectHideFlags: 0
