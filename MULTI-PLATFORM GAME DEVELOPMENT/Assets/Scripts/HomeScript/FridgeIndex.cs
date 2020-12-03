@@ -7,7 +7,7 @@ public class FridgeIndex : MonoBehaviour
 {
     public Image fridgeImg; //load fridge image
     public Text fridgeIndexText;
-    static int fridgeIndex = 50; //inital fridge index
+    public static int fridgeIndex = 50; //inital fridge index
     float percentage;
 
     // Start is called before the first frame update

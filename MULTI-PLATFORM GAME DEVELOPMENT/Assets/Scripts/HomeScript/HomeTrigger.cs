@@ -11,6 +11,7 @@ public class HomeTrigger : MonoBehaviour
     private bool doorTrigger;
     private bool bedTrigger;
     private Animator anim;
+    //public position;
 
     void Start()
     {
@@ -55,6 +56,7 @@ public class HomeTrigger : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.E) && bedTrigger) //if E prssed and doorTrigger active
         {
             SceneManager.LoadScene("DateInfo"); //load home scene
+            SerializationManager.Save("save", SaveData.current);
         }
     }
 }

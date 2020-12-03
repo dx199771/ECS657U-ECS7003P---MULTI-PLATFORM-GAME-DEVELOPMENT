@@ -7,7 +7,7 @@ using UnityEngine.SceneManagement;
 
 public class DateInfo : MonoBehaviour
 {
-    static int date = 1;
+    public static int date = 1;
     public Text dateDisplay;
 
     // Start is called before the first frame update
