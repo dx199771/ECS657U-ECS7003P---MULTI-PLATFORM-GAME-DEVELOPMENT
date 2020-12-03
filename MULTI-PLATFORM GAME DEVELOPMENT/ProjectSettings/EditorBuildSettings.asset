@@ -17,4 +17,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Home.unity
     guid: 258bc71c714aba640bb5f1b9b0cf02cb
+  - enabled: 1
+    path: Assets/Scenes/Street.unity
+    guid: 837f74a015da447108668ca504a003f2
+  - enabled: 1
+    path: Assets/Scenes/Park.unity
+    guid: 677644a35286a4bd4b0664b38c037e47
   m_configObjects: {}

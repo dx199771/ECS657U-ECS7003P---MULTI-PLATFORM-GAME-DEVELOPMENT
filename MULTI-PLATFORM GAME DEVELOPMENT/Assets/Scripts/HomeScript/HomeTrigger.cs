@@ -10,53 +10,92 @@ public class HomeTrigger : MonoBehaviour
     public Text infoText;
     private bool doorTrigger;
     private bool bedTrigger;
-    private Animator anim;
+    private bool dogTrigger;
+    public GameObject dog;
+    public Animator transition;
+    public float transitionTime = 5f;
+    private bool dogLeaded;
+    private Transform heroTransform;
+    public float followSpeed;
+
     //public position;
 
     void Start()
     {
-        anim = GetComponent<Animator>();
+        heroTransform = GameObject.FindGameObjectWithTag("Player").transform; //get player position
     }
 
-    private void OnTriggerStay2D(Collider2D collision)
+    private void OnTriggerStay2D(Collider2D collision) // when stay in trigger area
     {
         //if door is collision detected
         if (collision.CompareTag("Door"))
         {
             //open door info appear
             info.SetActive(true);
-            infoText.text = "Press E to leave the room!";
-            doorTrigger = true;
+            infoText.text = "Press E to leave the room!"; //change info text
+            doorTrigger = true; // set trigger on
         }
         if (collision.CompareTag("Bed"))
         {
-            //open door info appear
+            //sleep info appear
             info.SetActive(true);
             infoText.text = "Press E to sleep!";
             bedTrigger = true;
         }
+        if (collision.CompareTag("Dog"))
+        {
+            //open door info appear
+            info.SetActive(true);
+            infoText.text = "Press E to lead the dog!";
+            dogTrigger = true; //set lead dog trigger on
+        }
     }
-    private void OnTriggerExit2D(Collider2D collision)
+    private void OnTriggerExit2D(Collider2D collision) // when leave trigger area
     {
         if (collision.CompareTag("Door"))
         {
             info.SetActive(false); //hide info panel
             doorTrigger = false;
         }
-    }
+        if (collision.CompareTag("Bed"))
+        {
+            info.SetActive(false); //hide info panel
+            bedTrigger = false;
+        }
 
+    }
+    IEnumerator animation()
+    {
+        transition.SetTrigger("start");//set animation on
+        yield return new WaitForSeconds(transitionTime); //wait for seconds
+        SceneManager.LoadScene("Street");//change scene
+    }
     void Update()
     {   
-        if (Input.GetKeyDown(KeyCode.E) && doorTrigger) //if E prssed and doorTrigger active
+        if (Input.GetKeyDown(KeyCode.E)) //if E prssed and trigger active
         {
-            SceneManager.LoadScene("Game"); //load next scene
-            //anim.Play("transition");
+            if (doorTrigger)
+            {
+                StartCoroutine(animation());
+                //SceneManager.LoadScene("Street"); //load street scene
+            }
+            if (bedTrigger)
+            {
+                SceneManager.LoadScene("DateInfo"); //load date information scene
+                SerializationManager.Save("save", SaveData.current);
+            }
+            if (dogLeaded == false && dogTrigger)
+            {
+                dogLeaded = true; //if dog has been leaded
+            }
+
 
         }
-        if (Input.GetKeyDown(KeyCode.E) && bedTrigger) //if E prssed and doorTrigger active
+        if (dogTrigger && dogLeaded)
         {
-            SceneManager.LoadScene("DateInfo"); //load home scene
-            SerializationManager.Save("save", SaveData.current);
+            dog.transform.position = Vector3.Lerp(dog.transform.position, heroTransform.position, Time.deltaTime * followSpeed); //smooth translate dog position to hero position
         }
+
     }
+
 }
