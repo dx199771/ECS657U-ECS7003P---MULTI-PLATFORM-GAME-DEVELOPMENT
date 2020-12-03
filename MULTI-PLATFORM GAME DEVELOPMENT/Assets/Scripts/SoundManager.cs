@@ -10,6 +10,9 @@ public static class SoundManager
         HeroMove,
         PickItem,
         DropItem,
+        PayBill,
+        DogBark,
+        SwitchScene,
     }
 
     private static Dictionary<Sound, float> soundTimerDictionary;

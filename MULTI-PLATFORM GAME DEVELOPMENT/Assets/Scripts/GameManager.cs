@@ -25,6 +25,7 @@ public class GameManager : MonoBehaviour
     public void ExitSupermarket()
     {
         SceneManager.LoadScene("DateInfo"); // load date info
+        SoundManager.PlaySound(SoundManager.Sound.PayBill); //use the checkout sound effect
     }
 
 }
