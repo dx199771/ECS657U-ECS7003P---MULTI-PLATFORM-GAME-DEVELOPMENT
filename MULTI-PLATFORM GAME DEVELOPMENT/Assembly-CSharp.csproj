@@ -68,13 +68,11 @@
      <Compile Include="Assets\Scripts\Patrol.cs" />
      <Compile Include="Assets\Scripts\SoundManager.cs" />
      <Compile Include="Assets\Scripts\StreetScript\StreetTrigger.cs" />
-     <Compile Include="Assets\Scripts\SerializationManager.cs" />
      <Compile Include="Assets\Scripts\ResultsCanvas.cs" />
      <Compile Include="Assets\Scripts\HomeScript\FridgeIndex.cs" />
      <Compile Include="Assets\Scripts\NpcAnimation.cs" />
      <Compile Include="Assets\Scripts\Slot.cs" />
      <Compile Include="Assets\Scripts\DateInfo.cs" />
-     <Compile Include="Assets\Scripts\SaveData.cs" />
      <Compile Include="Assets\Scripts\Timer.cs" />
      <Compile Include="Assets\Scripts\PlayerControl.cs" />
      <Compile Include="Assets\Scripts\GameAssets.cs" />
@@ -86,6 +84,8 @@
      <Compile Include="Assets\Scripts\MainMenu.cs" />
      <Compile Include="Assets\Scripts\HealthPoint.cs" />
      <Compile Include="Assets\LevelLoader.cs" />
+     <Compile Include="Assets\Scripts\GameHandler.cs" />
+     <Compile Include="Assets\Scripts\IUnit.cs" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>E:/UnityProject/ECS657U-ECS7003P---MULTI-PLATFORM-GAME-DEVELOPMENT/MULTI-PLATFORM GAME DEVELOPMENT/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>

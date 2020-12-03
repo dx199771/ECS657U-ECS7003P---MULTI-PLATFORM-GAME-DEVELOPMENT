@@ -9,7 +9,7 @@ public class HomeTrigger : MonoBehaviour
     public GameObject info;
     public Text infoText;
     private bool doorTrigger;
-    private bool bedTrigger;
+    public static bool bedTrigger;
     private bool dogTrigger;
     public GameObject dog;
     public Animator transition;
@@ -82,7 +82,6 @@ public class HomeTrigger : MonoBehaviour
             if (bedTrigger)
             {
                 SceneManager.LoadScene("DateInfo"); //load date information scene
-                SerializationManager.Save("save", SaveData.current);
             }
             if (dogLeaded == false && dogTrigger)
             {
