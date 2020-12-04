@@ -18,14 +18,6 @@ public class RendererSorter : MonoBehaviour
 
     private void LateUpdate()
     {
-        if (transform.position.y < 0)
-        {
-            myRenderer.sortingOrder = (int)(sortingOrderBase - Math.Sqrt(Math.Pow(transform.position.y, 2.0) + Math.Pow(transform.position.x, 2.0)) * 10 - offset * 10);
-        }
-        else
-        {
-            myRenderer.sortingOrder = (int)(sortingOrderBase + Math.Sqrt(Math.Pow(transform.position.y, 2.0) + Math.Pow(transform.position.x, 2.0)) * 10 - offset * 10);
-        }
-        
+        myRenderer.sortingOrder = (int)(sortingOrderBase - (transform.position.y) * 10 - offset * 10);
     }
 }
