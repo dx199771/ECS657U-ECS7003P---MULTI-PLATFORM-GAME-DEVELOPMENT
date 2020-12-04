@@ -12,6 +12,9 @@ public class StreetTrigger : MonoBehaviour
     private bool supermarketTrigger;
     public Animator transition;
     public float transitionTime = 5f;
+    static public bool dogLeaded;
+    public GameObject dog;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -26,15 +29,22 @@ public class StreetTrigger : MonoBehaviour
         }
         if (Input.GetKeyDown(KeyCode.E) && supermarketTrigger) //if E prssed and marketTrigger active
         {
-            SceneManager.LoadScene("Game"); //load Market scene
+            animation("Game"); //load Market scene
         }
+        //if dog is leaded
+        dogLeaded = HomeTrigger.dogLeaded;
+        if (dogLeaded)
+        {
+            dog.SetActive(true);
+        }
+
     }
 
-    IEnumerator animation()
+    IEnumerator animation(string scene)
     {
         transition.SetTrigger("start");//set animation on
         yield return new WaitForSeconds(transitionTime); //wait for seconds
-        SceneManager.LoadScene("Street");//change scene
+        SceneManager.LoadScene(scene);//change scene
     }
     private void OnTriggerStay2D(Collider2D collision)
     {

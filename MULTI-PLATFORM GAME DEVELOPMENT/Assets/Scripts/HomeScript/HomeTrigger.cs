@@ -14,10 +14,10 @@ public class HomeTrigger : MonoBehaviour
     public GameObject dog;
     public Animator transition;
     public float transitionTime = 5f;
-    private bool dogLeaded;
+    static public bool dogLeaded;
     private Transform heroTransform;
     public float followSpeed;
-
+    
     //public position;
 
     void Start()
@@ -62,13 +62,18 @@ public class HomeTrigger : MonoBehaviour
             info.SetActive(false); //hide info panel
             bedTrigger = false;
         }
+        if (collision.CompareTag("Dog"))
+        {
+            info.SetActive(false); //hide info panel
+            dogTrigger = false;
+        }
 
     }
-    IEnumerator animation()
+    IEnumerator animation(string scene)
     {
         transition.SetTrigger("start");//set animation on
         yield return new WaitForSeconds(transitionTime); //wait for seconds
-        SceneManager.LoadScene("Street");//change scene
+        SceneManager.LoadScene(scene);//change scene
     }
     void Update()
     {   
@@ -76,12 +81,12 @@ public class HomeTrigger : MonoBehaviour
         {
             if (doorTrigger)
             {
-                StartCoroutine(animation());
+                StartCoroutine(animation("Street"));
                 //SceneManager.LoadScene("Street"); //load street scene
             }
             if (bedTrigger)
             {
-                SceneManager.LoadScene("DateInfo"); //load date information scene
+                StartCoroutine(animation("DateInfo"));
             }
             if (dogLeaded == false && dogTrigger)
             {

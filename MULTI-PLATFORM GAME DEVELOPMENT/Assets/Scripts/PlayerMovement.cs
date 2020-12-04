@@ -14,6 +14,9 @@ public class PlayerMovement : MonoBehaviour
     private float verAxis;
     public float initialXPos;
     public float initialyPos;
+    public GameObject dog;
+    public float followSpeed;
+    public Vector3 pos;
 
     void Awake()
     {
@@ -32,6 +35,9 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        pos = transform.position; //hero position
+        dog.transform.position = Vector3.Lerp(dog.transform.position, pos, Time.deltaTime * followSpeed); //smooth translate dog position to hero position
+
         if (instructionPanel.activeSelf || resultPanel.activeSelf) //cannot move when instruction panel open
         {
             horAxis = 0;
