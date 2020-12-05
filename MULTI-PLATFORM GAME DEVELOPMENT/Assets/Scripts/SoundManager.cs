@@ -12,6 +12,7 @@ public static class SoundManager
         DropItem,
         PayBill,
         DogBark,
+        GooseHonk,
         SwitchScene,
     }
 
@@ -21,6 +22,8 @@ public static class SoundManager
     {
         soundTimerDictionary = new Dictionary<Sound, float>();
         soundTimerDictionary[Sound.HeroMove] = 0f;
+        soundTimerDictionary[Sound.DogBark] = 0f;
+        soundTimerDictionary[Sound.GooseHonk] = 0f;
     }
 
     public static void PlaySound(Sound sound)
@@ -34,21 +37,21 @@ public static class SoundManager
         
     }
 
-    private static bool CanPlaySound(Sound sound)
+    private static bool CanPlaySound(Sound sound) //To set a limit for how frequently a sound can play.
     {
         switch (sound)
         {
             default:
-                return true;
-            case Sound.HeroMove:
+                return true; //buy default, a sound can play as frequent as it wants
+            case Sound.HeroMove: // set a separate case for the footstep sound of the hero.
                 if (soundTimerDictionary.ContainsKey(sound))
                 {
                     float lastTimePlayed = soundTimerDictionary[sound];
                     float playerMoveTimerMax = .35f;
-                    if(lastTimePlayed + playerMoveTimerMax < Time.time)
+                    if(lastTimePlayed + playerMoveTimerMax < Time.time) // if more than 0.35 second from last time play the foot step sound
                     {
-                        soundTimerDictionary[sound] = Time.time;
-                        return true;
+                        soundTimerDictionary[sound] = Time.time; // update the last time played with the current time
+                        return true; //allow the sound being played
                     }
                     else
                     {
@@ -58,6 +61,25 @@ public static class SoundManager
                 else
                 {
                     return true;
+                }
+            case Sound.DogBark: // set a separate case for the dog barking sound
+                if (soundTimerDictionary.ContainsKey(sound))
+                {
+                    float lastTimeBarked = soundTimerDictionary[sound];
+                    float dogBarkTimerMax = new Random.Range(10f,30f);
+                    if (lastTimeBarked + dogBarkTimerMax < Time.time) // if the current time surpass the threshold set 
+                    {
+                        soundTimerDictionary[sound] = Time.time; // update the last time played with the current time
+                        return true; //allow the sound being played
+                    }
+                    else
+                    {
+                        return false;
+                    }
+                }
+                else
+                {
+                    return false;
                 }
                 
         }

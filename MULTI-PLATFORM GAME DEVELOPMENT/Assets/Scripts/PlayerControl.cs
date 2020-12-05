@@ -28,7 +28,6 @@ public class PlayerControl : MonoBehaviour
         if (collision.CompareTag("PedestrainInner"))
         {
             currentHp -= 15.0f;
-            //tickSource.Play();
             SoundManager.PlaySound(SoundManager.Sound.HeroHurt);
         }
         //chracter die
