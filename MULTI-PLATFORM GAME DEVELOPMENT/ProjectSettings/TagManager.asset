@@ -10,6 +10,7 @@ TagManager:
   - Park
   - Market
   - Dog
+  - PedestrainInner
   layers:
   - Default
   - TransparentFX

@@ -10,6 +10,7 @@ public class PlayerControl : MonoBehaviour
     public float currentHp = 10.0f;
     public GameObject timer;
     public GameObject resultsCanvas;
+    public Text hpText;
     // Start is called before the first frame update
     void Start()
     {
@@ -17,8 +18,14 @@ public class PlayerControl : MonoBehaviour
         //tickSource = GetComponent<AudioSource>();
 
     }
+    void Update()
+    {
+        //update hp text
+        hpText.text = ""+ currentHp+ "%";
+
+    }
     private void OnTriggerEnter2D(Collider2D collision) {
-        if (collision.CompareTag("Pedestrain"))
+        if (collision.CompareTag("PedestrainInner"))
         {
             currentHp -= 15.0f;
             //tickSource.Play();
@@ -28,6 +35,7 @@ public class PlayerControl : MonoBehaviour
         //display endgame scene
         if (currentHp <= 0)
         {
+            resultsCanvas.SetActive(true);
         }
         if (collision.CompareTag("Finish")) {
             resultsCanvas.SetActive(true);

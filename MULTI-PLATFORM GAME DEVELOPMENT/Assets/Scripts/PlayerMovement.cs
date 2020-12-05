@@ -48,22 +48,14 @@ public class PlayerMovement : MonoBehaviour
         {
             horAxis = Input.GetAxis("Horizontal"); //take X-axis and Y-axis from input
             verAxis = Input.GetAxis("Vertical");
-            Vector2 movement = new Vector2(horAxis, verAxis);
-
             GetComponent<Rigidbody2D>().velocity = new Vector2(horAxis * speed, verAxis * speed); //player's velocity of moving
             Vector2 direction = new Vector2(horAxis, verAxis);
+
             FindObjectOfType<PlayerAnimation>().SetDirection(direction); //assign animation to the character according to the direction
         
             if (direction.magnitude>0)
             {
-                //if (!SoundManager.Sound.HeroMove.isPlaying())
-                //{
-                SoundManager.PlaySound(SoundManager.Sound.HeroMove);
-                //}
-                //else
-                //{
-                    //SoundManager.Sound.HeroMove.Stop();
-                //}
+                SoundManager.PlaySound(SoundManager.Sound.HeroMove); //play walk sound
             }
 
         }

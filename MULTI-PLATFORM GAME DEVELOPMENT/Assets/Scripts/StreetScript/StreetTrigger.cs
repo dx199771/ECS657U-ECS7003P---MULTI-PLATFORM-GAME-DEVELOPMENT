@@ -23,13 +23,13 @@ public class StreetTrigger : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.E) && parkTrigger) //if E prssed and parkTrigger active
         {
-            SceneManager.LoadScene("Park"); //load Park scene
+            StartCoroutine(animation("Park")); //load Park scene
             //anim.Play("transition");
 
         }
         if (Input.GetKeyDown(KeyCode.E) && supermarketTrigger) //if E prssed and marketTrigger active
         {
-            animation("Game"); //load Market scene
+            StartCoroutine(animation("Game")); //load supermarket scene
         }
         //if dog is leaded
         dogLeaded = HomeTrigger.dogLeaded;
