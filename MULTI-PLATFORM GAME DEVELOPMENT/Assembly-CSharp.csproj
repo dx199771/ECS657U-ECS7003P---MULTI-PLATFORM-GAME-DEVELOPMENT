@@ -85,6 +85,7 @@
      <Compile Include="Assets\Scripts\MainMenu.cs" />
      <Compile Include="Assets\Scripts\HealthPoint.cs" />
      <Compile Include="Assets\LevelLoader.cs" />
+     <Compile Include="Assets\Scripts\VolumeSetting.cs" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>E:/UnityProject/ECS657U-ECS7003P---MULTI-PLATFORM-GAME-DEVELOPMENT/MULTI-PLATFORM GAME DEVELOPMENT/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
