@@ -15,7 +15,7 @@ public class DialogManager : MonoBehaviour
     private AudioSource dialogueAudioSource;
     private int index; //current playing dialog message
     //all the msg from supermarket scene
-    private string[] msgList1 = new string[]
+    public string[] msgList1 = new string[]
     {
         "Ehh, not very good?",
         "Well, hope you can have a good time in the following minutes during your shopping. ",
@@ -46,10 +46,9 @@ public class DialogManager : MonoBehaviour
         if (index >= msgList1.Length-2)
         {
             scene1.SetActive(false);
-            if (SceneManager.GetActiveScene().name=="Game")
-            {
-                timer.SetActive(true); //set timer on
-            }
+ 
+            timer.SetActive(true); //set timer on
+            
         }
         //display message when button click
         messageText = transform.Find("message").Find("dialogText").GetComponent<Text>();

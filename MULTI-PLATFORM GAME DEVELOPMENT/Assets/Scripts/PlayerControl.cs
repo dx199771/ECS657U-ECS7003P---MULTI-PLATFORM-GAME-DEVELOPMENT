@@ -34,6 +34,7 @@ public class PlayerControl : MonoBehaviour
         //display endgame scene
         if (currentHp <= 0)
         {
+            currentHp = 0f;
             resultsCanvas.SetActive(true);
         }
         if (collision.CompareTag("Finish")) {

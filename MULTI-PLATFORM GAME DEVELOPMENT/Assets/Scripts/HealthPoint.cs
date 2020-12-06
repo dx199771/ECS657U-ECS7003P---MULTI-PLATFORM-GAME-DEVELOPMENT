@@ -22,11 +22,11 @@ public class HealthPoint : MonoBehaviour
         healthPointImage.fillAmount = player.currentHp / player.maxHp; //define the filling rate of the health UI
         if (healthPointEffect.fillAmount > healthPointImage.fillAmount)
         {
-            healthPointEffect.fillAmount -= hurtSpeed; //the rate health dropping
+            healthPointEffect.fillAmount -= hurtSpeed; //the rate health dropping when lose health
 
         }
         else {
-            healthPointEffect.fillAmount = healthPointImage.fillAmount;
+            healthPointEffect.fillAmount = healthPointImage.fillAmount;  //otherwise not change
         }
     }
 }

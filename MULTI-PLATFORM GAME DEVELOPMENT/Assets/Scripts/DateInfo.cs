@@ -20,7 +20,7 @@ public class DateInfo : MonoBehaviour
     }
     IEnumerator waiter()
     {
-        yield return new WaitForSeconds(3); //delay for 3 second
+        yield return new WaitForSeconds(2); //delay for 3 second
         SceneManager.LoadScene("Home"); //load home scene
 
     }

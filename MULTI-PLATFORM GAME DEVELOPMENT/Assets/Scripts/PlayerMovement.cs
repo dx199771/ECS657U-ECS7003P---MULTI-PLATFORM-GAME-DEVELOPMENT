@@ -43,6 +43,7 @@ public class PlayerMovement : MonoBehaviour
         {
             horAxis = 0;
             verAxis = 0;
+            Debug.Log("error");
             
         }
         else //if instruction panel close(game start)
