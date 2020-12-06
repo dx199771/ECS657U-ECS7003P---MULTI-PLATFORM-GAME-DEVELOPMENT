@@ -55,7 +55,7 @@ MonoBehaviour:
   - sound: 4
     audioClip: {fileID: 8300000, guid: d54cee7de53bc2644a6e48b42cc7fa46, type: 3}
   - sound: 5
-    audioClip: {fileID: 8300000, guid: 599b2a6ece6810949a37a91746712fb8, type: 3}
+    audioClip: {fileID: 8300000, guid: 49c243f53c9c24e1b8dd2f5945192a50, type: 3}
   - sound: 6
     audioClip: {fileID: 0}
   - sound: 6
