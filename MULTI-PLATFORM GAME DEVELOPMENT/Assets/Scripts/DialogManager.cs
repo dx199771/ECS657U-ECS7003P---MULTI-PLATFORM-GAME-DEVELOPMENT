@@ -11,7 +11,7 @@ public class DialogManager : MonoBehaviour
     [SerializeField] private DialogWriter dialogWriter;
     public GameObject scene1;
     public GameObject timer; 
-    private Text messageText;
+    public static Text messageText;
     private AudioSource dialogueAudioSource;
     private int index; //current playing dialog message
     //all the msg from supermarket scene
@@ -53,11 +53,21 @@ public class DialogManager : MonoBehaviour
         //display message when button click
         messageText = transform.Find("message").Find("dialogText").GetComponent<Text>();
         string msg = msgList1[index];
-        dialogWriter.AddWriter(messageText, msg, 0.05f, true, true);
-        dialogueAudioSource.Play(); //play keyboard sound effect
+        StartTypingSound(); //play keyboard sound effect
+        dialogWriter.AddWriter(messageText, msg, 0.05f, true, true, StopTypingSound);
         index++;
 
 
+    }
+
+    private void StartTypingSound()
+    {
+        dialogueAudioSource.Play();
+    }
+
+    private void StopTypingSound()
+    {
+        dialogueAudioSource.Stop();
     }
 
     // Start is called before the first frame update
@@ -65,7 +75,7 @@ public class DialogManager : MonoBehaviour
     {
         //assign new text to text component
         //messageText.text = "Hi,World!";
-        dialogWriter.AddWriter(messageText, "Hey my friend, how are you today? ", 0.05f, true,true);
+        dialogWriter.AddWriter(messageText, "Hi, how are you today? ", 0.05f, true,true, StopTypingSound);
 
     }
 

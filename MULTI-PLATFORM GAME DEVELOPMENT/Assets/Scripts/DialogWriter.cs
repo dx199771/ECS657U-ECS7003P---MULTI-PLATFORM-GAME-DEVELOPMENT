@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -17,13 +18,13 @@ public class DialogWriter : MonoBehaviour
     }
 
     //add a new text writer to text writer list
-    public void AddWriter(Text uiText, string textToWrite, float timePerCharacter, bool invisibleChar, bool removeWriterBeforeAdd)
+    public void AddWriter(Text uiText, string textToWrite, float timePerCharacter, bool invisibleChar, bool removeWriterBeforeAdd, Action onComplete)
     {
         if (removeWriterBeforeAdd) //if current dialogue message hasnt done and click continue, remove current message and display next one
         {
             RemoveWriter(uiText);
         }
-        dialogWriterSingleList.Add(new DialogWriterSingle(uiText, textToWrite, timePerCharacter, invisibleChar));
+        dialogWriterSingleList.Add(new DialogWriterSingle(uiText, textToWrite, timePerCharacter, invisibleChar, onComplete));
 
     }
     //double clike may destroy the dialog text
@@ -35,6 +36,7 @@ public class DialogWriter : MonoBehaviour
             if (dialogWriterSingleList[i].GetUIText()==uiText)
             {
                 dialogWriterSingleList.RemoveAt(i);
+                i--; // this is added, wasnt here
             }
         }
     }
@@ -64,14 +66,16 @@ public class DialogWriter : MonoBehaviour
         private float timePerCharacter; //gap time between input of each character
         private float timer;
         private bool invisibleChar;
+        private Action onComplete;
 
-        public DialogWriterSingle(Text uiText, string textToWrite, float timePerCharacter, bool invisibleChar)
+        public DialogWriterSingle(Text uiText, string textToWrite, float timePerCharacter, bool invisibleChar, Action onComplete)
         {
             //assign each parameter
             this.uiText = uiText;
             this.textToWrite = textToWrite;
             this.timePerCharacter = timePerCharacter;
             this.invisibleChar = invisibleChar;
+            this.onComplete = onComplete;
             characterIndex = 0;
         }
         //return true when complete
@@ -95,7 +99,11 @@ public class DialogWriter : MonoBehaviour
                 uiText.text = text;
                 //if typing done, display entire string
                 if (characterIndex >= textToWrite.Length)
+                {
+                    if (onComplete != null) onComplete();
                     return true;
+                }
+                    
 
             }
             // not complete
@@ -106,5 +114,14 @@ public class DialogWriter : MonoBehaviour
         {
             return uiText;
         }
+
+        //public void WriteAllAndDestroy()
+        //{
+            //uiText.text = DialogManager.messageText;
+            //characterIndex = DialogManager.messageText.Length;
+            //if (onComplete != null) onComplete();
+            //DialogWriter.RemoveWriter(uiText);
+
+        //}
     }
 }
