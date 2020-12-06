@@ -10,13 +10,13 @@ public class GameAssets : MonoBehaviour
     {
         get
         {
-            if (_Instance == null) _Instance = (Instantiate(Resources.Load("GameAssets")) as GameObject).GetComponent<GameAssets>();
+            if (_Instance == null) _Instance = (Instantiate(Resources.Load("GameAssets")) as GameObject).GetComponent<GameAssets>(); //Create a new instance if there isn't one
             return _Instance;
 
         }
     }
 
-    public SoundAudioClip[] soundAudioClipArray;
+    public SoundAudioClip[] soundAudioClipArray; //create an array for sound effect audio clip
 
     [System.Serializable]
     public class SoundAudioClip

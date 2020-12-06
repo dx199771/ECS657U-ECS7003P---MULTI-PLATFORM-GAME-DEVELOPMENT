@@ -32748,7 +32748,7 @@ AudioSource:
   m_GameObject: {fileID: 664578919}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 24300002, guid: 1377395c238977c48b8b68aa031a5121, type: 2}
   m_audioClip: {fileID: 8300000, guid: 682a4be70a6c29943ac20c34d4213db7, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.3
@@ -74220,12 +74220,12 @@ EdgeCollider2D:
   m_Offset: {x: 0, y: 0}
   m_EdgeRadius: 0
   m_Points:
-  - {x: 0.060144663, y: 1.2857019}
-  - {x: -2.3017988, y: -0.5673281}
+  - {x: 0.11902213, y: 1.2632722}
+  - {x: -2.3438542, y: -0.5448985}
   - {x: -0.056499004, y: -1.7014613}
   - {x: 2.3464453, y: -0.5064491}
   - {x: 2.3352985, y: 0.0070344806}
-  - {x: 0.07598567, y: 1.3159537}
+  - {x: 0.12925553, y: 1.2710947}
   m_AdjacentStartPoint: {x: 0, y: 0}
   m_AdjacentEndPoint: {x: 0, y: 0}
   m_UseAdjacentStartPoint: 0

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public static class SoundManager
 {
-    public enum Sound
+    public enum Sound // having a list of sounds effect
     {
         HeroHurt,
         HeroMove,
@@ -20,7 +20,7 @@ public static class SoundManager
 
     public static void Initialize()
     {
-        soundTimerDictionary = new Dictionary<Sound, float>();
+        soundTimerDictionary = new Dictionary<Sound, float>(); //building a dictionary for the timing of the sound being played
         soundTimerDictionary[Sound.HeroMove] = 0f;
         soundTimerDictionary[Sound.DogBark] = 0f;
         soundTimerDictionary[Sound.GooseHonk] = 0f;
@@ -28,11 +28,20 @@ public static class SoundManager
 
     public static void PlaySound(Sound sound)
     {
-        if (CanPlaySound(sound)) 
+        if (CanPlaySound(sound)) //If the sound is allowed to be played
         {
-            GameObject soundGameObject = new GameObject("Sound");
+            GameObject soundGameObject = new GameObject("Sound"); //create a new object for the sound
             AudioSource audioSource = soundGameObject.AddComponent<AudioSource>();
-            audioSource.PlayOneShot(GetAudioClip(sound));
+            if (sound == Sound.HeroMove)
+            {
+                audioSource.volume = 0.5f; //reduce the volume of the footstep sound
+                audioSource.PlayOneShot(GetAudioClip(sound));
+            }
+            else
+            {
+                audioSource.PlayOneShot(GetAudioClip(sound)); // use to PlayOneShot to trigger the sound effect
+            }
+
         }
         
     }
@@ -86,7 +95,7 @@ public static class SoundManager
         }
     }
 
-    private static AudioClip GetAudioClip(Sound sound)
+    private static AudioClip GetAudioClip(Sound sound) //this method is to get the audio clip that put into the GameAssets prefab
     {
         foreach (GameAssets.SoundAudioClip soundAudioClip in GameAssets.Instance.soundAudioClipArray)
         {
