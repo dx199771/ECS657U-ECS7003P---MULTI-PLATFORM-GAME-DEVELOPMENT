@@ -566,8 +566,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 430348796}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.7415867, y: -2.4270048, z: 1.5498233}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_LocalPosition: {x: 1.7415867, y: -2.08, z: 1.5498233}
+  m_LocalScale: {x: 0.45793, y: 0.45793, z: 0.45793}
   m_Children: []
   m_Father: {fileID: 1074600584}
   m_RootOrder: 1
@@ -935,7 +935,7 @@ Transform:
   m_GameObject: {fileID: 521963130}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -7.2284136, y: 4.0429955, z: 1.5498233}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_LocalScale: {x: 0.405, y: 0.405, z: 0.405}
   m_Children: []
   m_Father: {fileID: 1074600584}
   m_RootOrder: 2
@@ -6641,6 +6641,22 @@ MonoBehaviour:
   dialogWriter: {fileID: 1890062801}
   scene1: {fileID: 1020339205}
   timer: {fileID: 0}
+  msgList1:
+  - Ehh, not very good?
+  - 'Well, hope you can have a good time in the following minutes during your shopping. '
+  - 'Please notice, you are requested to follow the one way system while you are
+    inside the supermarket. '
+  - Please see arrow signs on the floor.
+  - "Use \u201CW-A-S-D\u201D to walk around and \u201CE\u201D to pick up items. "
+  - "Also, don\u2019t forget to reference your shopping list showing above."
+  - "I don\u2019t think you want to miss getting any items this time."
+  - 'Oh, another important notice! '
+  - 'The interior space is not very well ventilated, and possibly there will be rising
+    number of people during the rush hours. '
+  - So please always keep social distancing to others to protect yourselves.
+  - Or your mask will be contaminated and your shopping time will be over.
+  - "OK, now are you ready? 3, 2, 1, let\u2019s go!"
+  - 
 --- !u!1 &1074600583
 GameObject:
   m_ObjectHideFlags: 0
@@ -6665,7 +6681,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1074600583}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.0015866384, y: 0.09700477, z: -1.5498233}
+  m_LocalPosition: {x: -0.0015866384, y: 0.51, z: -1.5498233}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2140205419}
@@ -8035,7 +8051,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!95 &1702584245
 Animator:
   serializedVersion: 3

@@ -65,7 +65,7 @@ public class DialogManager : MonoBehaviour
     {
         //assign new text to text component
         //messageText.text = "Hi,World!";
-        dialogWriter.AddWriter(messageText, "Hi, how are you today? ", 0.05f, true,true);
+        dialogWriter.AddWriter(messageText, "Hey my friend, how are you today? ", 0.05f, true,true);
 
     }
 

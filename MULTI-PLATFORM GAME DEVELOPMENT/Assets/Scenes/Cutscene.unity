@@ -13376,7 +13376,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogWriter: {fileID: 1306232406}
   scene1: {fileID: 1474001009}
-  timer: {fileID: 0}
+  timer: {fileID: 914670221}
+  msgList1:
+  - "I\u2019m Tuoji, and you are at my home now. "
+  - Just like the situation most of people faced in 2020, this global pandemic makes
+    me spend almost a whole year time staying indoors, in this spaceless flat.
+  - 'In such uncertainty, luckily, I still have my dachshund Yuki with me. She is
+    my closest company getting through all these together. '
+  - Though, food in the fridge is going to run out and our moods gradually get lower
+    and lower.
+  - "It\u2019s time for me to go out this door with Yuki and find our way to survive."
 --- !u!1 &1507584378
 GameObject:
   m_ObjectHideFlags: 0
@@ -13435,7 +13444,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: 21300000, guid: 9056386df092d4ba7b6f9d8fd80ad11f, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 85cac5e986ef29b419729720764e41d6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -13632,7 +13641,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -92, y: 102}
+  m_AnchoredPosition: {x: -92, y: 56}
   m_SizeDelta: {x: 135, y: 40}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1707681045
