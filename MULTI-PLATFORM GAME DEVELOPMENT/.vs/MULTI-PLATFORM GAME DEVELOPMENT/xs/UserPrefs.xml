@@ -1,8 +1,8 @@
 ﻿<Properties StartupConfiguration="{AEC1143B-0521-5A13-76DD-8223EAE531B4}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/DialogWriter.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/SoundManager.cs">
     <Files>
       <File FileName="Assets/Scripts/DialogWriter.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/DialogWriter.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/SoundManager.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -10,7 +10,7 @@
           <Node name="MULTI-PLATFORM GAME DEVELOPMENT" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
-                <Node name="DialogWriter.cs" selected="True" />
+                <Node name="SoundManager.cs" selected="True" />
               </Node>
             </Node>
           </Node>

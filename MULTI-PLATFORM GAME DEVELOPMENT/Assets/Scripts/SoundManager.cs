@@ -66,7 +66,8 @@ public static class SoundManager
                 if (soundTimerDictionary.ContainsKey(sound))
                 {
                     float lastTimeBarked = soundTimerDictionary[sound];
-                    float dogBarkTimerMax = new Random.Range(10f,30f);
+                    //float dogBarkTimerMax = new Random.Range(10f,30f);
+                    float dogBarkTimerMax = 10f;
                     if (lastTimeBarked + dogBarkTimerMax < Time.time) // if the current time surpass the threshold set 
                     {
                         soundTimerDictionary[sound] = Time.time; // update the last time played with the current time
