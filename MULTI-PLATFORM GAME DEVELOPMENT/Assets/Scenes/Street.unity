@@ -8781,6 +8781,8 @@ MonoBehaviour:
   - 'What''s your plan today?  Go shopping or walk your dog? '
   - For social distancing reason, walk to your destination is better than taking
     a bus.
+  - 
+  - 
 --- !u!1 &2054370021
 GameObject:
   m_ObjectHideFlags: 0
