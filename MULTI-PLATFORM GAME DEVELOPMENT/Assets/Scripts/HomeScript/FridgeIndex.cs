@@ -14,16 +14,24 @@ public class FridgeIndex : MonoBehaviour
     void Start()
     {
         percentage = ResultsCanvas.percentage;
-        fridgeIndex = (int)(fridgeIndex + fridgeIndex * percentage);
+        fridgeIndex = (int)(fridgeIndex + fridgeIndex * percentage); //food collect from supermarket
+        fridgeIndex = fridgeIndex - (int)(DateInfo.date* 0.05* fridgeIndex); //total fridge index minus food cost everyday
+        
         if (fridgeIndex > 100)
         {
             fridgeIndex = 100;
         }
+        if (fridgeIndex < 100)
+        {
+
+        }
+        ResultsCanvas.percentage = 0;
     }
 
     // Update is called once per frame
     void Update()
     {
+        Debug.Log(fridgeIndex);
         fridgeImg.fillAmount = fridgeIndex * 0.01f;
         fridgeIndexText.text = fridgeIndex.ToString();
     }

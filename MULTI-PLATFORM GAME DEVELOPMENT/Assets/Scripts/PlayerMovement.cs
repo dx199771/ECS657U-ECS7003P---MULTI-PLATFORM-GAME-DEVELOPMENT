@@ -43,8 +43,7 @@ public class PlayerMovement : MonoBehaviour
         {
             horAxis = 0;
             verAxis = 0;
-            Debug.Log("error");
-            
+            GetComponent<Rigidbody2D>().velocity = new Vector2(horAxis, verAxis);
         }
         else //if instruction panel close(game start)
         {

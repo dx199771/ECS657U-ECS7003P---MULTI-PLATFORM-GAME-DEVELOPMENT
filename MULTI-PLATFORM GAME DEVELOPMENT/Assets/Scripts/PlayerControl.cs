@@ -27,7 +27,7 @@ public class PlayerControl : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision) {
         if (collision.CompareTag("PedestrainInner"))
         {
-            currentHp -= 15.0f;
+            currentHp -= 25.0f;
             SoundManager.PlaySound(SoundManager.Sound.HeroHurt);
         }
         //chracter die

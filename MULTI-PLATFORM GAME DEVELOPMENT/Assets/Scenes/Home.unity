@@ -1488,7 +1488,7 @@ MonoBehaviour:
   m_FillMethod: 4
   m_FillAmount: 1
   m_FillClockwise: 1
-  m_FillOrigin: 0
+  m_FillOrigin: 2
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
 --- !u!222 &606967022
@@ -3736,8 +3736,6 @@ MonoBehaviour:
   - If you want to walk your dog, you need to pick up her first before you leave
     the room.
   - If you want to skip the day, you can go back to your bed and sleep.
-  - 
-  - 
 --- !u!1 &1594311384
 GameObject:
   m_ObjectHideFlags: 0
@@ -3826,6 +3824,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1627564561}
+  - component: {fileID: 1627564562}
   m_Layer: 5
   m_Name: dogHealth
   m_TagString: Untagged
@@ -3855,6 +3854,20 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 8.8}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1627564562
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1627564560}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8a0530f68ec23a4489fb7fee84a4614, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dogImg: {fileID: 606967021}
+  dogIndexText: {fileID: 1261479218}
 --- !u!1 &1707681043
 GameObject:
   m_ObjectHideFlags: 0

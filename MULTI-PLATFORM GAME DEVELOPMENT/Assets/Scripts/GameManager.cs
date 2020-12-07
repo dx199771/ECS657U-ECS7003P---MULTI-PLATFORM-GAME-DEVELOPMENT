@@ -12,8 +12,7 @@ public class GameManager : MonoBehaviour
 
     public void EndGame(float score) //determine the setting for game over
     {
-        Debug.Log("Game Over"); 
-        gameScreen.SetActive(true);
+        SceneManager.LoadScene("Menu"); //exit to main menu
 
     }
 

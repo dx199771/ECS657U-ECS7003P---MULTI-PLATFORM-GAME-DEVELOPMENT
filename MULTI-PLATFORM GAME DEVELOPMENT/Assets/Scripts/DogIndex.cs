@@ -11,7 +11,7 @@ public class DogIndex : MonoBehaviour
 
     private Vector2 lastPos;
     private Vector2 currentPos;
-    public float totalDistance;
+    public static float totalDistance;
     public float totalTime;
     public Image dogCircleImage;
     public Text timer;
@@ -38,12 +38,12 @@ public class DogIndex : MonoBehaviour
 
         Debug.Log(totalDistance);
         dogCircleImage.fillAmount = totalDistance / 100; //fill UI circle
-
+        resultText.text = "Dog mood index increased " + (int)totalDistance + "%";
         dogText.text = ""+(int)totalDistance+"%";
         if (distance >= 100 || timer.text == "0s") { //game over when distance >100
             distance = 100;
             resultCanvas.SetActive(true);
-            resultText.text = "Dog mood"+ totalDistance + "%";
+            
         }
     }
 }

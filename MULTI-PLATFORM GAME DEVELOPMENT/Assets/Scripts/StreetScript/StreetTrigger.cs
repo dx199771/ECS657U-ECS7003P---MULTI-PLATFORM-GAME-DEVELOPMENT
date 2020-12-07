@@ -11,7 +11,7 @@ public class StreetTrigger : MonoBehaviour
     private bool parkTrigger;
     private bool supermarketTrigger;
     public Animator transition;
-    public float transitionTime = 5f;
+    public float transitionTime;
     static public bool dogLeaded;
     public GameObject dog;
 
