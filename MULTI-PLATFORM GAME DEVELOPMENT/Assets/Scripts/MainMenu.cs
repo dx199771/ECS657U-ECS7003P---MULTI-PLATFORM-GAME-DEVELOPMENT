@@ -10,7 +10,7 @@ public class MainMenu : MonoBehaviour
 
     public void PlayGame() {
         SceneManager.LoadScene("Cutscene");
-        GameHandler.Save();
+        PlayerPrefs.DeleteAll();
 
     }
     public void Countiue()
