@@ -19,9 +19,24 @@ Assignments are made in groups of 3 students. Please use the Group Selection too
 
 Assets Attribute:
 All audio clips used,
-hurt01-thm-adventure.mp3
+HeroHurt.mp3
 piano-background-4.wav
+keyboard-typing-looping-FreeSound.wav
+stomp224_lakefountain_Freesound.wav
 
-are attributed to the user on freesound.org who contribute voluntarily
+are attributed to the user on freesound.org who contribute voluntarily.
+
+BGM_home_ear0_ID：10356.wav
+
+are attributed to the user on ear0.com who contributed voluntarily.
+
+Ambience Nature_Adobe.wav
+Pond Ambience with Duck Honk_Adobe.wav
+HeroMove.wav
+Pay Bill_Adobe.wav
+
+are from Adobe Sound Effect Library which is totally free to use.
 
 script for implementing the background music are inspired by user11458208 on stackoverflow: https://stackoverflow.com/questions/59086739/unity-add-background-music-on-game
+
+script for implementing SoundManager System, Renderer Sorter and Saving System is inspired by tutorials of Code Monkey.
