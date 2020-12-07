@@ -17,6 +17,7 @@ public class Patrol : MonoBehaviour
     public GameObject npcDialog;
     private Vector2 pos;
     private Camera cam;
+    public Image crowdIndex;
     // Start is called before the first frame update
     void Start()
     {
@@ -44,11 +45,11 @@ public class Patrol : MonoBehaviour
         }
 
 
-        if (Vector2.Distance(transform.position, moveSpots[randomSpot].position) < 0.2f)
+        if (Vector2.Distance(transform.position, moveSpots[randomSpot].position) < 0.2f) //if npc move to destination point
         {
             if (waitTime <= 0)
             {
-                randomSpot = Random.Range(0, moveSpots.Length);
+                randomSpot = Random.Range(0, moveSpots.Length); //generate new random destination point
                 waitTime = startWaitTime;
 
             }
@@ -91,7 +92,7 @@ public class Patrol : MonoBehaviour
             npcDialog.SetActive(true);
             infoText.text = "Please keep social distance"; //dialog text
             Vector2 point = cam.WorldToScreenPoint(pos); //transform position from world space to screen space
-
+            crowdIndex.color = Color.red; //crowd cirle turn red when close to NPC
             npcDialog.transform.position = point + new Vector2(-100.0f, 100.0f); ; //UI display above NPC
         }
 
@@ -101,6 +102,8 @@ public class Patrol : MonoBehaviour
         //if door is collision detected
         if (collision.CompareTag("Player"))
         {
+            crowdIndex.color = Color.grey; //crowd cirle turn red when close to NPC
+
             //open door info appear
             npcDialog.SetActive(false);
 

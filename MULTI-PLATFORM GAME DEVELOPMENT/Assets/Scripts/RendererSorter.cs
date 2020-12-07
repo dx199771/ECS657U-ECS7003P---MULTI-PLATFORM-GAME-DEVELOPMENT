@@ -13,11 +13,11 @@ public class RendererSorter : MonoBehaviour
 
     private void Awake()
     {
-        myRenderer = gameObject.GetComponent<Renderer>();
+        myRenderer = gameObject.GetComponent<Renderer>(); //get renderer
     }
 
     private void LateUpdate()
     {
-        myRenderer.sortingOrder = (int)(sortingOrderBase - (transform.position.y) * 10 - offset * 10);
+        myRenderer.sortingOrder = (int)(sortingOrderBase - (transform.position.y) * 10 - offset * 10); //calculating sorting order base on the y position of the object
     }
 }

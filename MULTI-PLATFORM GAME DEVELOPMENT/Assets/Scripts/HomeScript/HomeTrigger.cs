@@ -23,6 +23,7 @@ public class HomeTrigger : MonoBehaviour
     void Start()
     {
         heroTransform = GameObject.FindGameObjectWithTag("Player").transform; //get player position
+        dogLeaded = false; //reset dog leaded
     }
 
     private void OnTriggerStay2D(Collider2D collision) // when stay in trigger area

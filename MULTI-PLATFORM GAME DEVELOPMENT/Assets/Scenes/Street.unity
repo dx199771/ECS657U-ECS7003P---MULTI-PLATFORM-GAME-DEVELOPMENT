@@ -7155,8 +7155,8 @@ PolygonCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 3.28, y: 1.91}
-    newSize: {x: 3.16, y: 2}
+    oldSize: {x: 2.93, y: 1.45}
+    newSize: {x: 2.93, y: 1.45}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
@@ -7252,15 +7252,15 @@ SpriteRenderer:
   m_SortingLayerID: 734613735
   m_SortingLayer: 2
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 97c108072e9954fd8b6f430b35401663, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 10f0c080be52e484994574103e20059c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 3.16, y: 2}
+  m_Size: {x: 2.93, y: 1.45}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &1187359914
@@ -8781,8 +8781,6 @@ MonoBehaviour:
   - 'What''s your plan today?  Go shopping or walk your dog? '
   - For social distancing reason, walk to your destination is better than taking
     a bus.
-  - 
-  - 
 --- !u!1 &2054370021
 GameObject:
   m_ObjectHideFlags: 0

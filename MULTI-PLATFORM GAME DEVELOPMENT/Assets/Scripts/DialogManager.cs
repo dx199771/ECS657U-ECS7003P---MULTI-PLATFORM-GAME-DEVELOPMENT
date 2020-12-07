@@ -43,7 +43,7 @@ public class DialogManager : MonoBehaviour
     {
         Debug.Log(index + "" + msgList1.Length);
         //if all messages displayed, start the game
-        if (index >= msgList1.Length-2)
+        if (index >= msgList1.Length-1)
         {
             scene1.SetActive(false);
             if(SceneManager.GetActiveScene().name == "Cutscene") //only if current scene is cut scene
