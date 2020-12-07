@@ -24,7 +24,7 @@ MonoBehaviour:
   m_MinSize: {x: 677, y: 492}
   m_MaxSize: {x: 14001, y: 14042}
   vertical: 0
-  controlID: 21586
+  controlID: 5494
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -138,7 +138,7 @@ MonoBehaviour:
   m_MinSize: {x: 402, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 21587
+  controlID: 5495
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -163,7 +163,7 @@ MonoBehaviour:
   m_MinSize: {x: 402, y: 221}
   m_MaxSize: {x: 8002, y: 4021}
   vertical: 0
-  controlID: 21588
+  controlID: 5496
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -217,10 +217,10 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 65}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: beadffff86afffffc4bcffffdabcffff26bdffffbcc6ffff5afbffff883c0000943c0000ae3c0000be3c0000d03c0000e23c0000ec3c0000f23c0000043d00000e3d00001a3d00002a3d00003a3d0000663d0000125d0000625d0000365e0000825e00009c5e0000226a0000646a0000686a0000126b0000566b0000ce6b00001e6c0000f26c00003e6d0000586d0000da7c0000f27c0000169a0000549c0000
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: 8c6e0100
+      m_LastClickedID: 93836
+      m_ExpandedIDs: 4cb6ffffe2b8ffffa2bdffffa4c3ffff02c4ffff18c4ffffc6c4ffffcac4ffffd0c4ffffdac4ffffe0c4ffff32c5ffff3cc5ffff5cf4ffff34f5ffff0afaffff5afbffff803d0000e8680000506b000066a0000060a10000e6a40000f4f400000cf500001242010092460100a85801008a600100c26d01008c6e0100
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -308,9 +308,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0.76957893, y: 1.4064041, z: -20236.906}
+    m_Target: {x: 1192.4194, y: 352.5743, z: -21878.656}
     speed: 2
-    m_Value: {x: 0.76957893, y: 1.4064041, z: -20236.906}
+    m_Value: {x: 1192.4194, y: 352.5743, z: -21878.656}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -361,9 +361,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 11.080794
+    m_Target: 382.31628
     speed: 2
-    m_Value: 11.080794
+    m_Value: 382.31628
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -595,9 +595,9 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 221}
-    m_SelectedIDs: b03e0000
-    m_LastClickedID: 16048
-    m_ExpandedIDs: 00000000583e00005a3e00005c3e00005e3e0000603e0000623e0000643e0000663e0000683e00006a3e00006c3e00006e3e0000703e0000723e0000743e0000763e0000783e00007a3e00007c3e000000ca9a3b
+    m_SelectedIDs: fe3e0000
+    m_LastClickedID: 16126
+    m_ExpandedIDs: 000000009e3e0000a03e0000a23e0000a43e0000a63e0000a83e0000aa3e0000ac3e0000ae3e0000b03e0000b23e0000b43e0000b63e0000b83e0000ba3e0000bc3e0000be3e0000c03e0000c23e000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -625,7 +625,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000583e00005a3e00005c3e00005e3e0000603e0000623e0000643e0000663e0000683e00006a3e00006c3e00006e3e0000703e0000723e0000743e0000763e0000783e00007a3e00007c3e000000ca9a3b
+    m_ExpandedIDs: 000000009e3e0000a03e0000a23e0000a43e0000a63e0000a83e0000aa3e0000ac3e0000ae3e0000b03e0000b23e0000b43e0000b63e0000b83e0000ba3e0000bc3e0000be3e0000c03e0000c23e000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -650,8 +650,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 
-    m_LastClickedInstanceID: 0
+    m_SelectedInstanceIDs: 8c6e0100
+    m_LastClickedInstanceID: 93836
     m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000f85a000074460000d43c0000705f000000000000
     m_RenameOverlay:
@@ -716,7 +716,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
+  m_Name: InspectorWindow
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
