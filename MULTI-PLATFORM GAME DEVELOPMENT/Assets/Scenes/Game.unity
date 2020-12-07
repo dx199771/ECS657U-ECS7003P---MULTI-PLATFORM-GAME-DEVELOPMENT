@@ -644,7 +644,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sortingOrderBase: 5000
-  offset: 0
+  offset: -1
 --- !u!1 &12864451
 GameObject:
   m_ObjectHideFlags: 0
@@ -741,7 +741,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sortingOrderBase: 5000
-  offset: 0
+  offset: -1
 --- !u!1 &16679950
 GameObject:
   m_ObjectHideFlags: 0
@@ -1191,7 +1191,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sortingOrderBase: 5000
-  offset: 1
+  offset: 0
 --- !u!1 &22446362
 GameObject:
   m_ObjectHideFlags: 0
@@ -1758,7 +1758,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sortingOrderBase: 5000
-  offset: 1
+  offset: 0
 --- !u!1 &29371120
 GameObject:
   m_ObjectHideFlags: 0
@@ -2153,7 +2153,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sortingOrderBase: 5000
-  offset: 1
+  offset: 0
 --- !u!1 &42710368
 GameObject:
   m_ObjectHideFlags: 0
@@ -4075,7 +4075,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sortingOrderBase: 5000
-  offset: 1
+  offset: 0
 --- !u!1 &92937349
 GameObject:
   m_ObjectHideFlags: 0
@@ -4628,7 +4628,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sortingOrderBase: 5000
-  offset: 0
+  offset: -1
 --- !u!1 &104892092
 GameObject:
   m_ObjectHideFlags: 0
@@ -11479,7 +11479,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sortingOrderBase: 5000
-  offset: 1
+  offset: 0
 --- !u!1 &124727327
 GameObject:
   m_ObjectHideFlags: 0
@@ -11867,7 +11867,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sortingOrderBase: 5000
-  offset: 1
+  offset: 0
 --- !u!1 &132527459
 GameObject:
   m_ObjectHideFlags: 0
@@ -12357,7 +12357,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sortingOrderBase: 5000
-  offset: 1
+  offset: 0
 --- !u!1 &141411543
 GameObject:
   m_ObjectHideFlags: 0
@@ -13348,6 +13348,7 @@ GameObject:
   - component: {fileID: 170211244}
   - component: {fileID: 170211243}
   - component: {fileID: 170211247}
+  - component: {fileID: 170211248}
   m_Layer: 0
   m_Name: NPC2
   m_TagString: Pedestrain
@@ -13505,6 +13506,20 @@ CircleCollider2D:
   m_Offset: {x: 0.00000047683716, y: 0.0000019073486}
   serializedVersion: 2
   m_Radius: 8.86
+--- !u!114 &170211248
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 170211241}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22863b11bf3dc5b42baa0a790824aa56, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sortingOrderBase: 5000
+  offset: 1
 --- !u!1 &173487498
 GameObject:
   m_ObjectHideFlags: 0
@@ -14071,7 +14086,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sortingOrderBase: 5000
-  offset: 1
+  offset: 0
 --- !u!1 &188042633
 GameObject:
   m_ObjectHideFlags: 0
@@ -14840,7 +14855,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sortingOrderBase: 5000
-  offset: 0
+  offset: -1
 --- !u!1 &208611847
 GameObject:
   m_ObjectHideFlags: 0
@@ -15019,7 +15034,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sortingOrderBase: 5000
-  offset: 0
+  offset: -1
 --- !u!1 &213841206
 GameObject:
   m_ObjectHideFlags: 0
@@ -15927,7 +15942,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sortingOrderBase: 5000
-  offset: 0
+  offset: -1
 --- !u!1 &234392937
 GameObject:
   m_ObjectHideFlags: 0
@@ -16767,7 +16782,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sortingOrderBase: 5000
-  offset: 0
+  offset: -1
 --- !u!1 &252429884
 GameObject:
   m_ObjectHideFlags: 0
@@ -16864,7 +16879,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sortingOrderBase: 5000
-  offset: 0
+  offset: -1
 --- !u!1 &252944148
 GameObject:
   m_ObjectHideFlags: 0
@@ -17850,7 +17865,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sortingOrderBase: 5000
-  offset: 0
+  offset: -1
 --- !u!1 &287760932
 GameObject:
   m_ObjectHideFlags: 0
@@ -18044,7 +18059,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sortingOrderBase: 5000
-  offset: 0
+  offset: -1
 --- !u!1 &294984361
 GameObject:
   m_ObjectHideFlags: 0
@@ -19820,7 +19835,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sortingOrderBase: 5000
-  offset: 1
+  offset: 0
 --- !u!1 &351063002
 GameObject:
   m_ObjectHideFlags: 0
@@ -21558,7 +21573,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sortingOrderBase: 5000
-  offset: 0
+  offset: -1
 --- !u!1 &387452337
 GameObject:
   m_ObjectHideFlags: 0
@@ -21931,7 +21946,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sortingOrderBase: 5000
-  offset: 1
+  offset: 0
 --- !u!1 &390299398
 GameObject:
   m_ObjectHideFlags: 0
@@ -22207,7 +22222,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sortingOrderBase: 5000
-  offset: 1
+  offset: 0
 --- !u!1 &396778094
 GameObject:
   m_ObjectHideFlags: 0
@@ -22550,7 +22565,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sortingOrderBase: 5000
-  offset: 0
+  offset: -1
 --- !u!1 &416915988
 GameObject:
   m_ObjectHideFlags: 0
@@ -23712,7 +23727,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sortingOrderBase: 5000
-  offset: 0
+  offset: -1
 --- !u!1 &445300651
 GameObject:
   m_ObjectHideFlags: 0
@@ -23809,7 +23824,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sortingOrderBase: 5000
-  offset: 1
+  offset: 0
 --- !u!1 &447894007
 GameObject:
   m_ObjectHideFlags: 0
@@ -24249,7 +24264,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sortingOrderBase: 5000
-  offset: 0
+  offset: -1
 --- !u!1 &455794847
 GameObject:
   m_ObjectHideFlags: 0
@@ -24378,7 +24393,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sortingOrderBase: 5000
-  offset: 1
+  offset: 0
 --- !u!1 &456309554
 GameObject:
   m_ObjectHideFlags: 0
@@ -26217,7 +26232,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sortingOrderBase: 5000
-  offset: 0
+  offset: -1
 --- !u!1 &503217268
 GameObject:
   m_ObjectHideFlags: 0
@@ -26314,7 +26329,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sortingOrderBase: 5000
-  offset: 1
+  offset: 0
 --- !u!1 &503389472
 GameObject:
   m_ObjectHideFlags: 0
@@ -26662,7 +26677,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sortingOrderBase: 5000
-  offset: 1
+  offset: 0
 --- !u!1 &512760120
 GameObject:
   m_ObjectHideFlags: 0
@@ -27505,7 +27520,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sortingOrderBase: 5000
-  offset: 1
+  offset: 0
 --- !u!1 &533574608
 GameObject:
   m_ObjectHideFlags: 0
@@ -27845,7 +27860,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sortingOrderBase: 5000
-  offset: 0
+  offset: -1
 --- !u!1 &539301318
 GameObject:
   m_ObjectHideFlags: 0
@@ -28300,7 +28315,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sortingOrderBase: 5000
-  offset: 0
+  offset: -1
 --- !u!1 &548703902
 GameObject:
   m_ObjectHideFlags: 0
@@ -28915,7 +28930,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sortingOrderBase: 5000
-  offset: 1
+  offset: 0
 --- !u!1 &562656331
 GameObject:
   m_ObjectHideFlags: 0
@@ -29558,7 +29573,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sortingOrderBase: 5000
-  offset: 1
+  offset: 0
 --- !u!1 &582873904
 GameObject:
   m_ObjectHideFlags: 0
@@ -29655,7 +29670,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sortingOrderBase: 5000
-  offset: 0
+  offset: -1
 --- !u!1 &584861164
 GameObject:
   m_ObjectHideFlags: 0
@@ -30420,7 +30435,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sortingOrderBase: 5000
-  offset: 1
+  offset: 0
 --- !u!1 &615796372
 GameObject:
   m_ObjectHideFlags: 0
@@ -30778,7 +30793,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sortingOrderBase: 5000
-  offset: 0
+  offset: -1
 --- !u!1 &620271318
 GameObject:
   m_ObjectHideFlags: 0
@@ -30875,7 +30890,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sortingOrderBase: 5000
-  offset: 1
+  offset: 0
 --- !u!1 &621220443
 GameObject:
   m_ObjectHideFlags: 0
@@ -31235,7 +31250,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sortingOrderBase: 5000
-  offset: 0
+  offset: -1
 --- !u!1 &628484425
 GameObject:
   m_ObjectHideFlags: 0
@@ -31332,7 +31347,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sortingOrderBase: 5000
-  offset: 0
+  offset: -1
 --- !u!1 &629804970
 GameObject:
   m_ObjectHideFlags: 0
@@ -32073,7 +32088,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sortingOrderBase: 5000
-  offset: 0
+  offset: -1
 --- !u!1 &647544620
 GameObject:
   m_ObjectHideFlags: 0
@@ -32612,7 +32627,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sortingOrderBase: 5000
-  offset: 1
+  offset: 0
 --- !u!1 &662273165
 GameObject:
   m_ObjectHideFlags: 0
@@ -33105,7 +33120,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sortingOrderBase: 5000
-  offset: 1
+  offset: 0
 --- !u!1 &674463577
 GameObject:
   m_ObjectHideFlags: 0
@@ -33792,7 +33807,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sortingOrderBase: 5000
-  offset: 0
+  offset: -1
 --- !u!1 &686949658
 GameObject:
   m_ObjectHideFlags: 0
@@ -34116,7 +34131,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sortingOrderBase: 5000
-  offset: 1
+  offset: 0
 --- !u!1 &691358662
 GameObject:
   m_ObjectHideFlags: 0
@@ -34923,7 +34938,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sortingOrderBase: 5000
-  offset: 1
+  offset: 0
 --- !u!1 &717833161
 GameObject:
   m_ObjectHideFlags: 0
@@ -36527,7 +36542,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sortingOrderBase: 5000
-  offset: 1
+  offset: 0
 --- !u!1 &763526033
 GameObject:
   m_ObjectHideFlags: 0
@@ -36624,7 +36639,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sortingOrderBase: 5000
-  offset: 0
+  offset: -1
 --- !u!1 &765113392
 GameObject:
   m_ObjectHideFlags: 0
@@ -37565,6 +37580,7 @@ GameObject:
   - component: {fileID: 789726633}
   - component: {fileID: 789726634}
   - component: {fileID: 789726635}
+  - component: {fileID: 789726636}
   m_Layer: 0
   m_Name: NPC1
   m_TagString: Pedestrain
@@ -37722,6 +37738,20 @@ CircleCollider2D:
   m_Offset: {x: 0.0000009536743, y: 0}
   serializedVersion: 2
   m_Radius: 8.86
+--- !u!114 &789726636
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 789726629}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22863b11bf3dc5b42baa0a790824aa56, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sortingOrderBase: 5000
+  offset: 1
 --- !u!1 &791509196
 GameObject:
   m_ObjectHideFlags: 0
@@ -37818,7 +37848,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sortingOrderBase: 5000
-  offset: 0
+  offset: -1
 --- !u!1 &792696598
 GameObject:
   m_ObjectHideFlags: 0
@@ -38012,7 +38042,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sortingOrderBase: 5000
-  offset: 1
+  offset: 0
 --- !u!1 &794622600
 GameObject:
   m_ObjectHideFlags: 0
@@ -39080,7 +39110,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sortingOrderBase: 5000
-  offset: 0
+  offset: -1
 --- !u!1 &832605406
 GameObject:
   m_ObjectHideFlags: 0
@@ -39535,7 +39565,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sortingOrderBase: 5000
-  offset: 0
+  offset: -1
 --- !u!1 &853858483
 GameObject:
   m_ObjectHideFlags: 0
@@ -42833,7 +42863,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sortingOrderBase: 5000
-  offset: 0
+  offset: -1
 --- !u!1 &948954129
 GameObject:
   m_ObjectHideFlags: 0
@@ -42930,7 +42960,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sortingOrderBase: 5000
-  offset: 0
+  offset: -1
 --- !u!1 &949209171
 GameObject:
   m_ObjectHideFlags: 0
@@ -43109,7 +43139,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sortingOrderBase: 5000
-  offset: 1
+  offset: 0
 --- !u!1 &958161909
 GameObject:
   m_ObjectHideFlags: 0
@@ -43206,7 +43236,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sortingOrderBase: 5000
-  offset: 0
+  offset: -1
 --- !u!1 &961059101
 GameObject:
   m_ObjectHideFlags: 0
@@ -43512,7 +43542,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sortingOrderBase: 5000
-  offset: 0
+  offset: -1
 --- !u!1 &968736688
 GameObject:
   m_ObjectHideFlags: 0
@@ -44074,7 +44104,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sortingOrderBase: 5000
-  offset: 0
+  offset: -1
 --- !u!1 &978839868
 GameObject:
   m_ObjectHideFlags: 0
@@ -44692,7 +44722,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sortingOrderBase: 5000
-  offset: 1
+  offset: 0
 --- !u!1 &1005765038
 GameObject:
   m_ObjectHideFlags: 0
@@ -44789,7 +44819,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sortingOrderBase: 5000
-  offset: 0
+  offset: -1
 --- !u!1 &1006662520
 GameObject:
   m_ObjectHideFlags: 0
@@ -44968,7 +44998,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sortingOrderBase: 5000
-  offset: 0
+  offset: -1
 --- !u!1 &1009024824
 GameObject:
   m_ObjectHideFlags: 0
@@ -45297,7 +45327,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sortingOrderBase: 5000
-  offset: 0
+  offset: -1
 --- !u!1 &1011911543
 GameObject:
   m_ObjectHideFlags: 0
@@ -46292,7 +46322,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sortingOrderBase: 5000
-  offset: 1
+  offset: 0
 --- !u!1 &1056701331
 GameObject:
   m_ObjectHideFlags: 0
@@ -46608,7 +46638,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sortingOrderBase: 5000
-  offset: 0
+  offset: -1
 --- !u!1 &1059993188
 GameObject:
   m_ObjectHideFlags: 0
@@ -46705,7 +46735,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sortingOrderBase: 5000
-  offset: 0
+  offset: -1
 --- !u!1 &1061505055
 GameObject:
   m_ObjectHideFlags: 0
@@ -47063,7 +47093,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sortingOrderBase: 5000
-  offset: 0
+  offset: -1
 --- !u!1 &1074372791
 GameObject:
   m_ObjectHideFlags: 0
@@ -48083,7 +48113,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sortingOrderBase: 5000
-  offset: 1
+  offset: 0
 --- !u!1 &1093172503
 GameObject:
   m_ObjectHideFlags: 0
@@ -48262,7 +48292,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sortingOrderBase: 5000
-  offset: 0
+  offset: -1
 --- !u!1 &1094358528
 GameObject:
   m_ObjectHideFlags: 0
@@ -48839,7 +48869,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sortingOrderBase: 5000
-  offset: 1
+  offset: 0
 --- !u!1 &1114537185
 GameObject:
   m_ObjectHideFlags: 0
@@ -49197,7 +49227,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sortingOrderBase: 5000
-  offset: 0
+  offset: -1
 --- !u!1 &1126600697
 GameObject:
   m_ObjectHideFlags: 0
@@ -49903,7 +49933,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sortingOrderBase: 5000
-  offset: 0
+  offset: -1
 --- !u!1 &1149602085
 GameObject:
   m_ObjectHideFlags: 0
@@ -50000,7 +50030,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sortingOrderBase: 5000
-  offset: 0
+  offset: -1
 --- !u!1 &1153249750
 GameObject:
   m_ObjectHideFlags: 0
@@ -50480,7 +50510,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sortingOrderBase: 5000
-  offset: 0
+  offset: -1
 --- !u!1 &1162789796
 GameObject:
   m_ObjectHideFlags: 0
@@ -50786,7 +50816,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sortingOrderBase: 5000
-  offset: 1
+  offset: 0
 --- !u!1 &1174674870
 GameObject:
   m_ObjectHideFlags: 0
@@ -51777,7 +51807,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sortingOrderBase: 5000
-  offset: 1
+  offset: 0
 --- !u!1 &1208907752
 GameObject:
   m_ObjectHideFlags: 0
@@ -52646,7 +52676,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sortingOrderBase: 5000
-  offset: 0
+  offset: -1
 --- !u!1 &1232192386
 GameObject:
   m_ObjectHideFlags: 0
@@ -52922,7 +52952,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sortingOrderBase: 5000
-  offset: 0
+  offset: -1
 --- !u!1 &1235543663
 GameObject:
   m_ObjectHideFlags: 0
@@ -53213,7 +53243,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sortingOrderBase: 5000
-  offset: 0
+  offset: -1
 --- !u!1 &1241008992
 GameObject:
   m_ObjectHideFlags: 0
@@ -53795,7 +53825,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sortingOrderBase: 5000
-  offset: 0
+  offset: -1
 --- !u!1 &1269937750
 GameObject:
   m_ObjectHideFlags: 0
@@ -54250,7 +54280,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sortingOrderBase: 5000
-  offset: 0
+  offset: -1
 --- !u!1 &1290302955
 GameObject:
   m_ObjectHideFlags: 0
@@ -54638,7 +54668,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sortingOrderBase: 5000
-  offset: 1
+  offset: 0
 --- !u!1 &1294211288
 GameObject:
   m_ObjectHideFlags: 0
@@ -55078,7 +55108,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sortingOrderBase: 5000
-  offset: 0
+  offset: -1
 --- !u!1 &1301112248
 GameObject:
   m_ObjectHideFlags: 0
@@ -55175,6 +55205,7 @@ GameObject:
   - component: {fileID: 1301868887}
   - component: {fileID: 1301868886}
   - component: {fileID: 1301868890}
+  - component: {fileID: 1301868891}
   m_Layer: 0
   m_Name: NPC4
   m_TagString: Pedestrain
@@ -55332,6 +55363,20 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0.0000009536743}
   serializedVersion: 2
   m_Radius: 8.86
+--- !u!114 &1301868891
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1301868884}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22863b11bf3dc5b42baa0a790824aa56, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sortingOrderBase: 5000
+  offset: 1
 --- !u!1 &1306080953
 GameObject:
   m_ObjectHideFlags: 0
@@ -55781,7 +55826,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sortingOrderBase: 5000
-  offset: 0
+  offset: -1
 --- !u!1 &1318709418
 GameObject:
   m_ObjectHideFlags: 0
@@ -56057,7 +56102,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sortingOrderBase: 5000
-  offset: 1
+  offset: 0
 --- !u!1 &1325034038
 GameObject:
   m_ObjectHideFlags: 0
@@ -58539,7 +58584,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sortingOrderBase: 5000
-  offset: 0
+  offset: -1
 --- !u!1 &1407314843
 GameObject:
   m_ObjectHideFlags: 0
@@ -58929,7 +58974,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sortingOrderBase: 5000
-  offset: 0
+  offset: -1
 --- !u!1 &1422341689
 GameObject:
   m_ObjectHideFlags: 0
@@ -59160,7 +59205,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sortingOrderBase: 5000
-  offset: 1
+  offset: 0
 --- !u!1 &1434214342
 GameObject:
   m_ObjectHideFlags: 0
@@ -59609,7 +59654,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sortingOrderBase: 5000
-  offset: 1
+  offset: 0
 --- !u!1 &1448998323
 GameObject:
   m_ObjectHideFlags: 0
@@ -60445,7 +60490,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sortingOrderBase: 5000
-  offset: 0
+  offset: -1
 --- !u!1 &1482764596
 GameObject:
   m_ObjectHideFlags: 0
@@ -61619,7 +61664,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sortingOrderBase: 5000
-  offset: 0
+  offset: -1
 --- !u!1 &1516297177
 GameObject:
   m_ObjectHideFlags: 0
@@ -62586,7 +62631,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sortingOrderBase: 5000
-  offset: 1
+  offset: 0
 --- !u!1 &1543887309
 GameObject:
   m_ObjectHideFlags: 0
@@ -63575,7 +63620,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sortingOrderBase: 5000
-  offset: 0
+  offset: -1
 --- !u!1 &1571455633
 GameObject:
   m_ObjectHideFlags: 0
@@ -67241,7 +67286,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sortingOrderBase: 5000
-  offset: 1
+  offset: 0
 --- !u!1 &1662477841
 GameObject:
   m_ObjectHideFlags: 0
@@ -67517,7 +67562,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sortingOrderBase: 5000
-  offset: 1
+  offset: 0
 --- !u!1 &1663925030
 GameObject:
   m_ObjectHideFlags: 0
@@ -68717,7 +68762,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sortingOrderBase: 5000
-  offset: 1
+  offset: 0
 --- !u!1 &1698801181
 GameObject:
   m_ObjectHideFlags: 0
@@ -69893,7 +69938,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sortingOrderBase: 5000
-  offset: 0
+  offset: -1
 --- !u!1 &1712462424
 GameObject:
   m_ObjectHideFlags: 0
@@ -69990,7 +70035,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sortingOrderBase: 5000
-  offset: 1
+  offset: 0
 --- !u!1 &1712471156
 GameObject:
   m_ObjectHideFlags: 0
@@ -70184,7 +70229,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sortingOrderBase: 5000
-  offset: 1
+  offset: 0
 --- !u!1 &1715861989
 GameObject:
   m_ObjectHideFlags: 0
@@ -70378,7 +70423,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sortingOrderBase: 5000
-  offset: 1
+  offset: 0
 --- !u!1 &1725900559
 GameObject:
   m_ObjectHideFlags: 0
@@ -70475,7 +70520,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sortingOrderBase: 5000
-  offset: 1
+  offset: 0
 --- !u!1 &1727008250
 GameObject:
   m_ObjectHideFlags: 0
@@ -70669,7 +70714,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sortingOrderBase: 5000
-  offset: 0
+  offset: -1
 --- !u!1 &1732855023
 GameObject:
   m_ObjectHideFlags: 0
@@ -71458,7 +71503,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sortingOrderBase: 5000
-  offset: 1
+  offset: 0
 --- !u!1 &1755489559 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4463105429639092942, guid: 3b31efefc6195f94b8817819444d800d, type: 3}
@@ -73207,7 +73252,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sortingOrderBase: 5000
-  offset: 1
+  offset: 0
 --- !u!1 &1803622882
 GameObject:
   m_ObjectHideFlags: 0
@@ -73460,7 +73505,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sortingOrderBase: 5000
-  offset: 1
+  offset: 0
 --- !u!1 &1805885333
 GameObject:
   m_ObjectHideFlags: 0
@@ -73721,7 +73766,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sortingOrderBase: 5000
-  offset: 0
+  offset: -1
 --- !u!1 &1814491367
 GameObject:
   m_ObjectHideFlags: 0
@@ -73920,7 +73965,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sortingOrderBase: 5000
-  offset: 1
+  offset: 0
 --- !u!1 &1822276911
 GameObject:
   m_ObjectHideFlags: 0
@@ -75151,7 +75196,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sortingOrderBase: 5000
-  offset: 0
+  offset: -1
 --- !u!1 &1864474703
 GameObject:
   m_ObjectHideFlags: 0
@@ -76549,7 +76594,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sortingOrderBase: 5000
-  offset: 1
+  offset: 0
 --- !u!1 &1907246808
 GameObject:
   m_ObjectHideFlags: 0
@@ -77161,7 +77206,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sortingOrderBase: 5000
-  offset: 0
+  offset: -1
 --- !u!1 &1914318661
 GameObject:
   m_ObjectHideFlags: 0
@@ -77997,7 +78042,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sortingOrderBase: 5000
-  offset: 1
+  offset: 0
 --- !u!1 &1937744833
 GameObject:
   m_ObjectHideFlags: 0
@@ -78599,7 +78644,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sortingOrderBase: 5000
-  offset: 1
+  offset: 0
 --- !u!1 &1948597222
 GameObject:
   m_ObjectHideFlags: 0
@@ -78647,6 +78692,7 @@ GameObject:
   - component: {fileID: 1950144382}
   - component: {fileID: 1950144381}
   - component: {fileID: 1950144385}
+  - component: {fileID: 1950144386}
   m_Layer: 0
   m_Name: NPC3
   m_TagString: Pedestrain
@@ -78804,6 +78850,20 @@ CircleCollider2D:
   m_Offset: {x: 0.0000019073486, y: -0.0000009536743}
   serializedVersion: 2
   m_Radius: 8.86
+--- !u!114 &1950144386
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1950144379}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22863b11bf3dc5b42baa0a790824aa56, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sortingOrderBase: 5000
+  offset: 1
 --- !u!1 &1950405716
 GameObject:
   m_ObjectHideFlags: 0
@@ -79117,7 +79177,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sortingOrderBase: 5000
-  offset: 0
+  offset: -1
 --- !u!1 &1957270857
 GameObject:
   m_ObjectHideFlags: 0
@@ -80945,7 +81005,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sortingOrderBase: 5000
-  offset: 0
+  offset: -1
 --- !u!1 &1996104785
 GameObject:
   m_ObjectHideFlags: 0
@@ -81236,7 +81296,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sortingOrderBase: 5000
-  offset: 1
+  offset: 0
 --- !u!1 &2003831158
 GameObject:
   m_ObjectHideFlags: 0
@@ -81415,7 +81475,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sortingOrderBase: 5000
-  offset: 1
+  offset: 0
 --- !u!1 &2006545867
 GameObject:
   m_ObjectHideFlags: 0
@@ -81546,7 +81606,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sortingOrderBase: 5000
-  offset: 1
+  offset: 0
 --- !u!1 &2011342519
 GameObject:
   m_ObjectHideFlags: 0
@@ -82170,7 +82230,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sortingOrderBase: 5000
-  offset: 1
+  offset: 0
 --- !u!1 &2025878388
 GameObject:
   m_ObjectHideFlags: 0
@@ -82509,7 +82569,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sortingOrderBase: 5000
-  offset: 1
+  offset: 0
 --- !u!1 &2033913325
 GameObject:
   m_ObjectHideFlags: 0
@@ -83648,7 +83708,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sortingOrderBase: 5000
-  offset: 0
+  offset: -1
 --- !u!1 &2060714454
 GameObject:
   m_ObjectHideFlags: 0
@@ -83745,7 +83805,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sortingOrderBase: 5000
-  offset: 1
+  offset: 0
 --- !u!1 &2060906256
 GameObject:
   m_ObjectHideFlags: 0
@@ -83939,7 +83999,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sortingOrderBase: 5000
-  offset: 1
+  offset: 0
 --- !u!1 &2062201331
 GameObject:
   m_ObjectHideFlags: 0
@@ -84118,7 +84178,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sortingOrderBase: 5000
-  offset: 1
+  offset: 0
 --- !u!1 &2064046407
 GameObject:
   m_ObjectHideFlags: 0
@@ -84853,7 +84913,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sortingOrderBase: 5000
-  offset: 1
+  offset: 0
 --- !u!1 &2085063744
 GameObject:
   m_ObjectHideFlags: 0
@@ -84950,7 +85010,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sortingOrderBase: 5000
-  offset: 1
+  offset: 0
 --- !u!1 &2085996202
 GameObject:
   m_ObjectHideFlags: 0
@@ -85047,7 +85107,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sortingOrderBase: 5000
-  offset: 0
+  offset: -1
 --- !u!1 &2095093087 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7022113324225181250, guid: 4df0c0f2b3d67104fb5a45ad3521d56f, type: 3}
@@ -86322,7 +86382,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sortingOrderBase: 5000
-  offset: 0
+  offset: -1
 --- !u!1 &2140854862
 GameObject:
   m_ObjectHideFlags: 0
@@ -86516,7 +86576,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sortingOrderBase: 5000
-  offset: 1
+  offset: 0
 --- !u!1 &2144162244
 GameObject:
   m_ObjectHideFlags: 0

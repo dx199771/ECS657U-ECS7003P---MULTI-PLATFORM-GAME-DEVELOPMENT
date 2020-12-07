@@ -7,10 +7,12 @@ public class MainMenu : MonoBehaviour
 {
     public void PlayGame() {
         SceneManager.LoadScene("DateInfo");
+        GameHandler.Load();
     }
 
     public void QuitGame() {
         Application.Quit();
+        GameHandler.Save();
     }
 
 }

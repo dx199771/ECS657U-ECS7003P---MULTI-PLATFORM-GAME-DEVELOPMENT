@@ -33,6 +33,7 @@ public class DogIndex : MonoBehaviour
     {
         currentPos = transform.position; //update current position
         totalDistance += Vector2.Distance(currentPos, lastPos); //find distance difference between current and privous position
+        SoundManager.PlaySound(SoundManager.Sound.DogBark);
         totalTime += Time.deltaTime; //update time
         lastPos = currentPos; //update current position to last postion in order to regree
 

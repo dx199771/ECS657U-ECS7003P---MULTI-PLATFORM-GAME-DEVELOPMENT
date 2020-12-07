@@ -37,7 +37,6 @@ public class PlayerMovement : MonoBehaviour
     {
         pos = transform.position; //hero position
         dog.transform.position = Vector3.Lerp(dog.transform.position, pos, Time.deltaTime * followSpeed); //smooth translate dog position to hero position
-        SoundManager.PlaySound(SoundManager.Sound.DogBark);
 
         if (instructionPanel.activeSelf || resultPanel.activeSelf) //cannot move when instruction panel open
         {
