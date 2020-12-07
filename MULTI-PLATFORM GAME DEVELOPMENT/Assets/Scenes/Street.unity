@@ -1396,7 +1396,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &793163463
 GameObject:
@@ -1554,7 +1554,7 @@ Transform:
   - {fileID: 2054370022}
   - {fileID: 1856385899}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &846011119
 GameObject:
@@ -6628,10 +6628,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1360527862}
         m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
-        m_MethodName: Exit
-        m_Mode: 1
+        m_MethodName: EndGame
+        m_Mode: 4
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -6834,7 +6834,7 @@ Transform:
   m_Children:
   - {fileID: 846011120}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1074600583
 GameObject:
@@ -6870,7 +6870,7 @@ Transform:
   - {fileID: 315796261}
   - {fileID: 954292462}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1079302959
 GameObject:
@@ -7275,7 +7275,7 @@ Transform:
   m_LocalScale: {x: 0.3568305, y: 0.3568305, z: 0.3568305}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1200015226
 GameObject:
@@ -7474,7 +7474,7 @@ Transform:
   m_Children:
   - {fileID: 1249480274}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1200015232
 MonoBehaviour:
@@ -7777,6 +7777,51 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1290485109}
   m_CullTransparentMesh: 0
+--- !u!1 &1360527861
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1360527863}
+  - component: {fileID: 1360527862}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1360527862
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1360527861}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73d438ad93f4dfd4b936066dd13d7ea1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  finalScore: 0
+  gameScreen: {fileID: 0}
+--- !u!4 &1360527863
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1360527861}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.57467365, y: -1.6420672, z: -3.8432503}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1381525829
 GameObject:
   m_ObjectHideFlags: 0
@@ -8191,7 +8236,7 @@ Transform:
   - {fileID: 1702584249}
   - {fileID: 1409777105}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1634284250
 GameObject:
@@ -8291,7 +8336,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!95 &1702584245
 Animator:
   serializedVersion: 3
@@ -8736,8 +8781,6 @@ MonoBehaviour:
   - 'What''s your plan today?  Go shopping or walk your dog? '
   - For social distancing reason, walk to your destination is better than taking
     a bus.
-  - 
-  - 
 --- !u!1 &2054370021
 GameObject:
   m_ObjectHideFlags: 0

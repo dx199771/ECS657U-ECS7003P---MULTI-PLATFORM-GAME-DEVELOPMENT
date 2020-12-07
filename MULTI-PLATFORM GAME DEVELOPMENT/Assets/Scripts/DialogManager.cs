@@ -46,7 +46,8 @@ public class DialogManager : MonoBehaviour
         if (index >= msgList1.Length-2)
         {
             scene1.SetActive(false);
- 
+            if(SceneManager.GetActiveScene().name == "Cutscene") //only if current scene is cut scene
+                SceneManager.LoadScene("Home"); //load home scene
             timer.SetActive(true); //set timer on
             
         }

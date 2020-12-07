@@ -2,13 +2,17 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Audio;
+using UnityEngine.UI;
 
 public class VolumeSetting : MonoBehaviour
 {
     public AudioMixer audioMixer;
+    public Slider audioSlider;
 
-    public void SetVolume(float volume)
+    void Update()
     {
-        audioMixer.SetFloat("Master", volume);
+        float audioLevel = audioSlider.value;
+        audioMixer.SetFloat("Master", audioLevel);
+        Debug.Log(audioLevel);
     }
 }
