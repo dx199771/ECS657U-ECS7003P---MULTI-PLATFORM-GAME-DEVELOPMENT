@@ -12615,6 +12615,7 @@ GameObject:
   - component: {fileID: 486023062}
   - component: {fileID: 486023063}
   - component: {fileID: 486023064}
+  - component: {fileID: 486023065}
   m_Layer: 0
   m_Name: fountain (2)
   m_TagString: Untagged
@@ -12701,6 +12702,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sortingOrderBase: 5000
   offset: 0
+--- !u!70 &486023065
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 486023061}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.025891602, y: -0.5306691}
+  m_Size: {x: 4.014062, y: 2.4292}
+  m_Direction: 1
 --- !u!1 &492420147
 GameObject:
   m_ObjectHideFlags: 0
@@ -15042,7 +15059,6 @@ MonoBehaviour:
   heroObject: {fileID: 1956535292}
   resultCanvas: {fileID: 1308866176}
   resultText: {fileID: 1442159740}
-  totalDistance: 0
   totalTime: 0
   dogCircleImage: {fileID: 669104808}
   timer: {fileID: 1919736209}
@@ -15843,6 +15859,7 @@ GameObject:
   - component: {fileID: 668323603}
   - component: {fileID: 668323604}
   - component: {fileID: 668323605}
+  - component: {fileID: 668323606}
   m_Layer: 0
   m_Name: fountain (3)
   m_TagString: Untagged
@@ -15929,6 +15946,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sortingOrderBase: 5000
   offset: 0
+--- !u!70 &668323606
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 668323602}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.00000035974074, y: -0.5177239}
+  m_Size: {x: 4.1176043, y: 2.5586202}
+  m_Direction: 1
 --- !u!1 &669104806
 GameObject:
   m_ObjectHideFlags: 0
@@ -21876,6 +21909,7 @@ GameObject:
   - component: {fileID: 744765069}
   - component: {fileID: 744765070}
   - component: {fileID: 744765071}
+  - component: {fileID: 744765072}
   m_Layer: 0
   m_Name: fountain
   m_TagString: Untagged
@@ -21962,6 +21996,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sortingOrderBase: 5000
   offset: 0
+--- !u!70 &744765072
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 744765068}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.038830705, y: -0.53066695}
+  m_Size: {x: 4.039946, y: 2.4809697}
+  m_Direction: 1
 --- !u!1 &747520410
 GameObject:
   m_ObjectHideFlags: 0
@@ -23404,6 +23454,7 @@ GameObject:
   - component: {fileID: 824631670}
   - component: {fileID: 824631671}
   - component: {fileID: 824631672}
+  - component: {fileID: 824631673}
   m_Layer: 0
   m_Name: fountain (1)
   m_TagString: Untagged
@@ -23490,6 +23541,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sortingOrderBase: 5000
   offset: 0
+--- !u!70 &824631673
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 824631669}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.025885195, y: -0.53066623}
+  m_Size: {x: 4.0658345, y: 2.5327363}
+  m_Direction: 1
 --- !u!1 &845380445
 GameObject:
   m_ObjectHideFlags: 0
@@ -64692,6 +64759,7 @@ GameObject:
   - component: {fileID: 2138382202}
   - component: {fileID: 2138382203}
   - component: {fileID: 2138382204}
+  - component: {fileID: 2138382205}
   m_Layer: 0
   m_Name: fountain (4)
   m_TagString: Untagged
@@ -64778,6 +64846,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sortingOrderBase: 5000
   offset: 0
+--- !u!70 &2138382205
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2138382201}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.019413292, y: -0.49183762}
+  m_Size: {x: 4.052899, y: 2.5845218}
+  m_Direction: 1
 --- !u!1 &2138382724
 GameObject:
   m_ObjectHideFlags: 0
