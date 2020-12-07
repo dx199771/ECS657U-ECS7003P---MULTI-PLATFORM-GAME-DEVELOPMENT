@@ -23,6 +23,7 @@ HeroHurt.mp3
 piano-background-4.wav
 keyboard-typing-looping-FreeSound.wav
 stomp224_lakefountain_Freesound.wav
+dogbarking.wav
 
 are attributed to the user on freesound.org who contribute voluntarily.
 
