@@ -34497,7 +34497,7 @@ SpriteRenderer:
   m_Size: {x: 6.41, y: 10.46}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!114 &1254088515
@@ -36264,6 +36264,8 @@ MonoBehaviour:
   - 'A really nice park in such close neighborhood, isn''t it?  '
   - 'Just enjoy your time with the nature and the fresh air. '
   - Have a walk with your dog hopefully can cheer you both up.
+  - 
+  - 
 --- !u!1 &1336772887
 GameObject:
   m_ObjectHideFlags: 0

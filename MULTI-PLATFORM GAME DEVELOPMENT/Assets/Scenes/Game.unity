@@ -19246,7 +19246,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 4.56, y: 3.63}
+    oldSize: {x: 4.56, y: 4.75}
     newSize: {x: 3.26, y: 5.41}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -57869,11 +57869,12 @@ MonoBehaviour:
   msgList1:
   - Now you are in the supermarket. Please remember to keep social distance when
     you are shopping.
-  - Your mask will be contaminated if you keep having contact with others. And your
+  - Your mask will be contaminated if you keep having contacts with others and your
     shopping mission will fail.
-  - "Use E  to pick up items you want. Don\u2019t forget to reference your shopping
+  - "Use E to pick up items you want. Don\u2019t forget to reference your shopping
     list showing above."
-  - 'After finishing shopping, please walk to the till for payment. '
+  - After shopping, please walk to the till for payment. The till is at the button
+    right corner of the market.
   - "OK, now are you ready? 3, 2, 1, let\u2019s go!"
 --- !u!1 &1390344356
 GameObject:
