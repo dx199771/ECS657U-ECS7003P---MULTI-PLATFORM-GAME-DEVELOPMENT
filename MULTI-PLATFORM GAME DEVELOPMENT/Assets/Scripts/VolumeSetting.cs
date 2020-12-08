@@ -12,7 +12,7 @@ public class VolumeSetting : MonoBehaviour
     void Update()
     {
         float audioLevel = audioSlider.value;
-        audioMixer.SetFloat("Master", audioLevel);
+        audioMixer.SetFloat("Master", audioLevel); //Update the volume value with the audio slider's value
         Debug.Log(audioLevel);
     }
 }

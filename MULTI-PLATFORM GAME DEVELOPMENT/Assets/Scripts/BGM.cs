@@ -11,7 +11,7 @@ public class BGM : MonoBehaviour
     {
         if (instance == null) //define the situation to activate BGM
         {
-            instance = this;
+            instance = this; //create an instance of the BGM
             DontDestroyOnLoad(gameObject);
             return;
         }
